@@ -1,0 +1,503 @@
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16 - Copy.config
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appT.config
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14Live.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14Live.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16 - Copy.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appT.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14Live.config
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16 - Copy.config
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appT.config
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.AssemblyReference.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16 - Copy.config
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appT.config
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.AssemblyReference.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14Test.config
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16 - Copy.config
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appT.config
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14Live.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14Live.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16 - Copy.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appT.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16 - Copy.config
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app16li.config
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appT.config
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14.config
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14.config
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app14.config
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18test.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll.config
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csprojAssemblyReference.cache
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+F:\Visual\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18Live.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app18test.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll.config
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.AssemblyReference.cache
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\Sujithra\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.AssemblyReference.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\app.config
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\web.config
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll.config
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.deps.json
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.json
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.runtimeconfig.dev.json
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.pdb
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\BALayer.dll.config
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.pdb
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\DALayer.dll.config
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.pdb
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\EnitityLayer.dll.config
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\bin\Debug\netcoreapp2.1\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.AssemblyReference.cache
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfoInputs.cache
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.AssemblyInfo.cs
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CoreCompileInputs.cache
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cache
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorAssemblyInfo.cs
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.RazorTargetAssemblyInfo.cache
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.csproj.CopyComplete
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.dll
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.pdb
+C:\sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\RIMC_WEBAPI\obj\Debug\netcoreapp2.1\RIMC_WEBAPI.genruntimeconfig.cache

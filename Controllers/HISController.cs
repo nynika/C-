@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.IO;
@@ -43,7 +43,18 @@ using System.Text;
 using System.Buffers.Text;
 using System.Net.Http;
 using static System.Net.WebRequestMethods;
-//using System.Windows.Forms;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Web;
+using System.Net.Http;
+using System.Web.Http;
+using System.Net.NetworkInformation;
+
+using System.IO.Abstractions;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using Microsoft.VisualBasic;
+
+
+
 
 
 
@@ -52,10 +63,13 @@ namespace RIMC_WEBAPI.Controllers
     [ApiController]
     [Route("api/[controller]/[action]")]
     //[EnableCors("_myAllowSpecificOrigins")]
+
+    
     public class HISController : Controller
     {
         private readonly IMediBusiness _mediBusiness;
         private readonly IConfiguration _configuration;
+       
         public HISController(IMediBusiness mediBusiness, IConfiguration configuration)
         {
             _mediBusiness = mediBusiness;
@@ -71,6 +85,37 @@ namespace RIMC_WEBAPI.Controllers
         {
             resLogin response = new resLogin();
             response = _mediBusiness.GetLogin(request);
+
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("getUserLogin")]
+        public resUserLogin checkuserLogin([FromBody] reqUserLogin req)
+        {
+            resUserLogin response = new resUserLogin();
+            response = _mediBusiness.getUserLogin(req);
+
+            return response;
+        }
+
+
+        [HttpPost]
+        [ActionName("patLogin")]
+        public respatLogin checkpatLogin([FromBody] reqpatLogin req)
+        {
+            respatLogin response = new respatLogin();
+            response = _mediBusiness.patLogin(req);
+
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("SaveUser_login")]
+        public resSavelogin SaveUser_login([FromBody] reqSaveLogin request)
+        {
+            resSavelogin response = new resSavelogin();
+            response = _mediBusiness.SaveUser_login(request);
 
             return response;
         }
@@ -132,6 +177,47 @@ namespace RIMC_WEBAPI.Controllers
             response = _mediBusiness.Update_RefId(req);
             return response;
         }
+
+        [HttpPost]
+        [ActionName("tempToUHIDGenerate")]
+        public CovidRegistrationDTO tempToUHIDGenerate([FromBody] uhidRequest req)
+        {
+
+            CovidRegistrationDTO appointmentBookings = new CovidRegistrationDTO();
+            appointmentBookings = _mediBusiness.uhidGenerate(req.UHID);
+
+            //string URL = "";
+            //var ReferenceNumber = appointmentBookings.RegistrationRefNo;
+            //if (ReferenceNumber != "")
+            //{
+            //    if (reg.CountryCode == 101)
+            //    {
+            //        URL = "https://alerts.qikberry.com/api/v2/sms/send?access_token=ae3661d756b5cbaa28548a90e87f565d&message=Your Registration reference number is (" + ReferenceNumber + ") and Kindly share Your Registration Reference Number to Receptionist to complete the registration. Patient-" + reg.PatientName + ", Dr. Rela Institute and Medical Centre." + "&sender=RELAIN&to=" + reg.MobileNo + "&service=T";
+            //    }
+            //    else
+            //    {
+            //        URL = "https://alerts.qikberry.com/api/v2/sms/send?access_token=ae3661d756b5cbaa28548a90e87f565d&message=Your Registration reference number is (" + ReferenceNumber + ") and Kindly share Your Registration Reference Number to Receptionist to complete the registration. Patient-" + reg.PatientName + ", Dr. Rela Institute and Medical Centre." + "&sender=RELAIN&to=" + reg.MobileNo + "&service=G";
+            //    }
+            //    //URL = "https://alerts.qikberry.com/api/v2/sms/send?access_token=f61f0a429797f88328690649ed72cfb3&message=Your Registration reference number is " + RandomNumber + "&sender=RELAIN&to=" + patient.MobileNo + "&service=T";
+
+            //    WebRequest myWebRequest = WebRequest.Create(URL);
+            //    WebResponse myWebResponse = myWebRequest.GetResponse();
+            //    Stream ReceiveStream = myWebResponse.GetResponseStream();
+            //    Encoding encode = System.Text.Encoding.GetEncoding("utf-8");
+            //    StreamReader readStream = new StreamReader(ReceiveStream, encode);
+            //    string strResponse = readStream.ReadToEnd();
+            //    if (strResponse.Contains("422"))
+            //    {
+
+            //    }
+            //    else
+            //    {
+
+            //    }
+            //}
+            return appointmentBookings;
+        }
+
 
         //[HttpPost]
         //[ActionName("OT_LIST_SAVE")]
@@ -239,6 +325,23 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
+        [HttpPost]
+        [ActionName("save_signimg")]
+        public resSavelogin save_signimg(signimgreq req)
+        {
+            resSavelogin response = new resSavelogin();
+            response = _mediBusiness.save_signimg(req);
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("signimage")]
+        public List<signimgreq> signimage()
+        {
+            List<signimgreq> response = new List<signimgreq>();
+            response = _mediBusiness.signimage();
+            return response;
+        }
 
         [HttpGet]
         [ActionName("usp_ExportImage")]
@@ -292,6 +395,8 @@ namespace RIMC_WEBAPI.Controllers
 
         //    return dropdown_DTOs;
         //}
+
+
         //[HttpPost]
         //[ActionName("Get_PaymentGetWay")]
         //public clsWebMinar Get_PaymentGetWay(PaymentGateWay req)
@@ -562,6 +667,16 @@ namespace RIMC_WEBAPI.Controllers
         }
 
         [HttpGet]
+        [ActionName("Web_Bed_Report")] // sujithra .........26/02/2024
+        public List<clsbedRes> Web_Bed_Report()
+        {
+            List<clsbedRes> BedReport = new List<clsbedRes>();
+            BedReport = _mediBusiness.Web_Bed_Report();
+            return BedReport;
+        }
+
+
+        [HttpGet]
         [ActionName("MaritalStatus")] // change.....29/10/2021
         public List<clsDropDown> GetMaritalStatusDetail()
         {
@@ -726,14 +841,7 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
-        [HttpGet]
-        [ActionName("Get_QMS_Details")]
-        public List<QMSDetails> Get_QMS_Details(string FromDate, string ToDate, string Type)
-        {
-            List<QMSDetails> response = new List<QMSDetails>();
-            response = _mediBusiness.Get_QMS_Details(FromDate, ToDate, Type);
-            return response;
-        }
+
         [HttpGet]
         [ActionName("getAppList")]
         public List<resAppointmentList> appointmentList_v1(string FromDate, string ToDate)
@@ -796,6 +904,41 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
+        [HttpGet]
+        [ActionName("RadiologyAppointmentStatus")]
+        public resHouseKeepingList RadiologyAppointmentStatus(string DoctorName, int UHID, int APPID , int PatType)
+        {
+            resHouseKeepingList response = new resHouseKeepingList();
+            response = _mediBusiness.RadiologyAppointmentStatus(DoctorName, UHID, APPID, PatType);
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("RadiologyAppointmentStatus_v1")]
+        public resHouseKeepingList RadiologyAppointmentStatus_v1(string DoctorName, int UHID, int APPID, string PatType)
+        {
+            resHouseKeepingList response = new resHouseKeepingList();
+            response = _mediBusiness.RadiologyAppointmentStatus_v1(DoctorName, UHID, APPID, PatType);
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("Get_QMS_Details")]
+        public List<QMSDetails> Get_QMS_Details(string FromDate, string ToDate, string Type)
+        {
+            List<QMSDetails> response = new List<QMSDetails>();
+            response = _mediBusiness.Get_QMS_Details(FromDate, ToDate, Type);
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("Get_QMS_Details_test")]
+        public List<QMSDetails_test> Get_QMS_Details_test(string FromDate, string ToDate, string Type)
+        {
+            List<QMSDetails_test> response = new List<QMSDetails_test>();
+            response = _mediBusiness.Get_QMS_Details_test(FromDate, ToDate, Type);
+            return response;
+        }
 
         [HttpGet]
         [ActionName("Get_DaywiseQMS_Data_V1")]
@@ -806,12 +949,32 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
+        [HttpGet]
+        [ActionName("Get_QMS_TVData")]
+        public List<resQMSListTV> Get_QMS_TVData()
+        {
+            List<resQMSListTV> response = new List<resQMSListTV>();
+            response = _mediBusiness.Get_QMS_TVData();
+            return response;
+        }
+
+
+
         [HttpPut]
         [ActionName("UpdateQMSStatus_Dtl")]
         public resHouseKeepingList UpdateQMSStatus_Dtl(Save_QMSDetails obj)
         {
             resHouseKeepingList response = new resHouseKeepingList();
             response = _mediBusiness.UpdateQMSStatus_Dtl(obj);
+            return response;
+        }
+
+        [HttpPut]
+        [ActionName("UpdateQMSStatus_Dtl_test")]
+        public resHouseKeepingList UpdateQMSStatus_Dtl_test(Save_QMSDetails obj)
+        {
+            resHouseKeepingList response = new resHouseKeepingList();
+            response = _mediBusiness.UpdateQMSStatus_Dtl_test(obj);
             return response;
         }
 
@@ -824,12 +987,235 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
+        [HttpPost]
+        [ActionName("SavePatientDetails")]
+        public resHouseKeepingList SavePatientDetails([FromBody] reqimg obj )
+        {
+            var httpRequest = HttpContext.Request;
+            // string UHID = httpRequest.Headers["UHID"];
+            obj.temppath = httpRequest.Headers["temppath"];
+
+            //string temppath = System.Web.HttpContext.Headers.Get("temppath");
+            //if (string.IsNullOrEmpty(temppath))
+            //{
+            //    return BadRequest("Temporary path not provided.");
+            //}
+            resHouseKeepingList response = new resHouseKeepingList();
+            response = _mediBusiness.SavePatientDetails(obj);
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("import")]
+        public resHouseKeepingList import([FromBody] Patient_Portal_PathModel obj)
+        {
+            resHouseKeepingList response = new resHouseKeepingList();
+            response = _mediBusiness.import(obj);
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("GetImageDetails")]
+        public List<resimgList> GetImageDetails()
+        {
+            List<resimgList> response = new List<resimgList>();
+            response = _mediBusiness.GetImageDetails();
+            return response;
+        }
+
+        //[HttpGet]
+        //[ActionName("DeleteFilefromDisk")]
+        //public clsdelPat DeleteFilefromDisk(int UHID, string DocumentPath)
+        //{
+        //    clsdelPat dropdown_DTOs = new clsdelPat();
+        //    dropdown_DTOs = _mediBusiness.DeleteFilefromDisk(UHID, DocumentPath);
+
+        //    return dropdown_DTOs;
+        //}
+
+
+        [HttpPost]
+        [ActionName("DeleteFilefromDisk")]
+        public async Task<IActionResult> DeleteFilefromDisk(reqimageModel lic)
+        {
+            try
+            {
+                var connectionString = @"Data Source=192.168.15.7;Initial Catalog=Image_Upload;User ID=hisadmin;Password=W1nd0ws@123/*";
+
+                var root = Path.Combine(@"\\192.168.15.4\PatientPortal", lic.UHID, lic.DocumentName, lic.DocumentPath);
+
+                // var root = Path.Combine(@"\\192.168.15.9\Common Share\PatientPortal", lic.UHID, lic.DocumentName, lic.DocumentPath);
+               
+                //  var root = Path.Combine(@"\\192.168.6.26\Uploaded_Files", lic.UHID, lic.DocumentName, lic.DocumentPath);
+
+                var fileInfo = new FileInfo(root);
+                if (fileInfo.Exists)
+                {
+                    fileInfo.Delete();
+
+                    using (SqlConnection con = new SqlConnection(connectionString))
+                    {
+                        await con.OpenAsync();
+                        using (SqlCommand cmd = new SqlCommand("DELETE FROM Image_Upload.dbo.Patient_Portal_Path WHERE UHID = @UHID AND DocumentPath = @DocumentPath", con))
+                        {
+                            cmd.Parameters.AddWithValue("@UHID", lic.UHID);
+                            cmd.Parameters.AddWithValue("@DocumentPath", lic.DocumentPath);
+                            int iResult = await cmd.ExecuteNonQueryAsync();
+                            if (iResult == 1)
+                            {
+                                return Ok(new reqimageModel
+                                {
+                                    UHID = lic.UHID,
+                                    DocumentName = lic.DocumentName,
+                                    DocumentPath = lic.DocumentPath,
+                                    Status = "Deleted"
+                                });
+                            }
+                            else
+                            {
+                                return Ok(new reqimageModel
+                                {
+                                    UHID = lic.UHID,
+                                    DocumentName = lic.DocumentName,
+                                    DocumentPath = lic.DocumentPath,
+                                    Status = "!Deleted"
+                                });
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    return NotFound();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return StatusCode(500, "Internal Server Error");
+            }
+        }
+
+
+        [HttpPost]
+        [ActionName("import_temporarily")]
+        public async Task<IActionResult> import_temporarily()
+        {
+            List<reqimg> list = new List<reqimg>();
+            var httpRequest = HttpContext.Request;
+            string UHID = httpRequest.Headers["UHID"];
+            string Paths = httpRequest.Headers["Path"];
+
+            if (httpRequest.Form.Files.Count > 0)
+            {
+                foreach (var formFile in httpRequest.Form.Files)
+                {
+                    if (formFile.Length > 0)
+                    {
+                        reqimg GetAll = new reqimg();
+                        var fileName = formFile.FileName;
+                        //var root = string.Format(@"\\192.168.15.9\Common Share\PatientPortal\{0}\{1}", UHID, Paths);
+                        var root = string.Format(@"\\192.168.15.4\PatientPortal\{0}\{1}", UHID, Paths);
+                        //  var root = string.Format(@"\\192.168.6.26\Uploaded_Files\{0}\{1}", UHID, Paths);
+                        Directory.CreateDirectory(root);
+                        var filePath = Path.Combine(root, fileName);
+
+                        using (var stream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await formFile.CopyToAsync(stream);
+                        }
+
+                        GetAll.TempPath_FileName = fileName;
+                        GetAll.UHID = UHID;
+                        GetAll.temppath = Path.Combine(UHID, Paths, fileName);
+                        list.Add(GetAll);
+                    }
+                }
+            }
+            return Ok(list);
+        }
+
+
+        [HttpPost]
+        [ActionName("DownloadUploadedFiles")]
+        public List<Patient_Portal_PathModel> DownloadUploadedFiles(reqPatient_Portal_PathModel lic)        
+        {
+        var connectionString = @"Data Source=192.168.15.7;Initial Catalog=Image_Upload;User ID=hisadmin;Password=W1nd0ws@123/*";
+        List<Patient_Portal_PathModel> res = new List<Patient_Portal_PathModel>();
+
+            SqlConnection con = new SqlConnection(connectionString);
+            con.Open();
+            SqlCommand cmd = new SqlCommand("Select * from Image_Upload.dbo.Patient_Portal_Path where UHID='" + lic.UHID.Trim() + "' and DocumentName='" + lic.DocumentName.Trim() + "'", con);
+            SqlDataReader reader = cmd.ExecuteReader();
+            DataTable dt = new DataTable();   
+            dt.Load(reader);    
+            if (dt != null)
+            {
+                if (dt.Rows.Count>0)
+               {
+
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                    Patient_Portal_PathModel result = new Patient_Portal_PathModel();
+
+                        result.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+                        result.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        result.MobileNo = DBNull.Value != dr["MobileNo"] ? Convert.ToString(dr["MobileNo"]) : "";
+                        result.DocumentPath = DBNull.Value != dr["DocumentPath"] ? Convert.ToString(dr["DocumentPath"]) : "";            
+                        result.DocumentName = DBNull.Value != dr["DocumentName"] ? Convert.ToString(dr["DocumentName"]) : "";
+              
+                        res.Add(result);
+
+                    }
+               }
+            }
+            return res;
+        }
+
+
+        [HttpPost]
+        [ActionName("WebSave_QMS_Details_test")]
+        public resHouseKeepingList WebSave_QMS_Details_test([FromBody] Save_QMSDetails obj)
+        {
+            resHouseKeepingList response = new resHouseKeepingList();
+            response = _mediBusiness.WebSave_QMS_Details_test(obj);
+            return response;
+        }
+
         [HttpGet]
         [ActionName("Get_WEB_DayWiseQMS_Dtl")]
         public List<DayWise_QMSDetails> Get_WEB_DayWiseQMS_Dtl()
         {
             List<DayWise_QMSDetails> response = new List<DayWise_QMSDetails>();
             response = _mediBusiness.Get_WEB_DayWiseQMS_Dtl();
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("Get_RadiologyAppointment")]
+        public List<RadiologyAppointment> Get_RadiologyAppointment()
+        {
+            List<RadiologyAppointment> response = new List<RadiologyAppointment>();
+            response = _mediBusiness.Get_RadiologyAppointment();
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("Get_RadiologyAppointment_Modality")]
+        public List<RadiologyAppointment> Get_RadiologyAppointment_Modality()
+        {
+            List<RadiologyAppointment> response = new List<RadiologyAppointment>();
+            response = _mediBusiness.Get_RadiologyAppointment_Modality();
+            return response;
+        }
+
+
+        [HttpGet]
+        [ActionName("Get_WEB_DayWiseQMS_Dtl_test")]
+        public List<DayWise_QMSDetails_test> Get_WEB_DayWiseQMS_Dtl_test()
+        {
+            List<DayWise_QMSDetails_test> response = new List<DayWise_QMSDetails_test>();
+            response = _mediBusiness.Get_WEB_DayWiseQMS_Dtl_test();
             return response;
         }
 
@@ -860,8 +1246,6 @@ namespace RIMC_WEBAPI.Controllers
             response = _mediBusiness.Get_web_RadLandingScreen_Dtl(dtFrom, dtTo, blnOrderwise);
             return response;
         }
-
-
         [HttpGet]
         [ActionName("Web_CardiologyLanding")]
         public List<clsCardiologyLanding> Web_CardiologyLanding(string FromDate, string ToDate)
@@ -944,9 +1328,9 @@ namespace RIMC_WEBAPI.Controllers
 
             return response;
         }
-        [HttpGet]
-        [ActionName("GetInvoiceReprint_out_NEW")]
 
+        [HttpGet]
+        [ActionName("GetInvoiceReprint_out_NEW")]        
         public InvoiceHead1 OpReprint_V1(int BillNo)
         {
             InvoiceHead1 response = new InvoiceHead1();
@@ -1034,16 +1418,7 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
-        [HttpGet]
-        [ActionName("AuthenticateMobNo_Upload_V1")]
-        public List<Authenticate> AuthenticateMobNo_Upload_V1(string OTP_MobileNo, int Otp)
-        {
-            List<Authenticate> response = new List<Authenticate>();
-            response = _mediBusiness.AuthenticateMobNo_Upload_V1(OTP_MobileNo, Otp);
-            return response;
-        }
-
-
+        
         [HttpGet]
         [ActionName("web_sp_Get_BedID")]
         public List<Get_BedID> web_sp_Get_BedID(int BedId)
@@ -1146,6 +1521,7 @@ namespace RIMC_WEBAPI.Controllers
             response = _mediBusiness.updatePOSPayment(payment_Request);
             return response;
         }
+
         [HttpPost]
         [ActionName("updateOnlinePayment")]
         public Response_DTO_v1 updateOnlinePayment(payment_request payment_Request)
@@ -1155,7 +1531,15 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
-        
+
+        [HttpGet]
+        [ActionName("AuthenticateMobNo_Upload_V1")]
+        public List<Authenticate> AuthenticateMobNo_Upload_V1(string OTP_MobileNo, int Otp)
+        {
+            List<Authenticate> response = new List<Authenticate>();
+            response = _mediBusiness.AuthenticateMobNo_Upload_V1(OTP_MobileNo, Otp);
+            return response;
+        }
 
         [HttpPost]
         [ActionName("sendotp_Portal")]
@@ -1211,12 +1595,12 @@ namespace RIMC_WEBAPI.Controllers
             List<PatientDTO> patients = new List<PatientDTO>();
             strRetmessage = _mediBusiness.AuthenticateOTP(patientDTO.OTP, patientDTO.MobileNo);
 
+
             //List<PatientDTO> appointmentSlots = new List<PatientDTO>();
             //appointmentSlots = _mediBusiness.GetAppointmentSlotDetails(appointmentSlot);
             if (strRetmessage == "1")
                 //patientres = _mediBusiness.GetPatientResp_MobNo(patientDTO.OTP, patientDTO.MobileNo);
                 patientres.response = "OTP Sucess";
-
 
             else
             {
@@ -1246,103 +1630,42 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
-        
-        //[Route("import_temporarily")]
-        //[HttpPost]
-        //public async Task<List<LicenseModel>> import_temporarily()
-        //{
+        [HttpGet]
+        [ActionName("SP_OPIPREVENUE")]
+        public List<res_opiprevenue> SP_OPIPREVENUE(string FromDate , string ToDate,string Pattype,int IVF_flg )
+        {
+            List<res_opiprevenue> response = new List<res_opiprevenue>();
+            response = _mediBusiness.SP_OPIPREVENUE(FromDate, ToDate, Pattype, IVF_flg);
+            return response;
+        }
 
-        //    List<LicenseModel> list = new List<LicenseModel>();
-        //    var httpContext = HttpContext.Current;
-        //    string EmpNo = System.Web.HttpContext.Current.Request.Headers.Get("EmpNo");
-        //    if (httpContext.Request.Files.Count > 0)
-        //    {
-        //        for (int i = 0; i < httpContext.Request.Files.Count; i++)
-        //        {
-        //            HttpPostedFile httpPostedFile = httpContext.Request.Files[i];
-        //            if (httpPostedFile != null)
-        //            {
-        //                LicenseModel GetAll = new LicenseModel();
-        //                var postedFile = httpContext.Request.Files[i].FileName;
-        //                var root = HttpContext.Current.Server.MapPath("~/temp/" + EmpNo + "/");
-        //                Directory.CreateDirectory(root);
-        //                var path = Path.Combine(root, postedFile);
-        //                httpPostedFile.SaveAs(path);
-        //                GetAll.TempPath_FileName = postedFile;
-        //                GetAll.UserName = EmpNo;
-        //                GetAll.TempPath = EmpNo + "/" + postedFile;
-        //                list.Add(GetAll);
-        //            }
-        //        }
-        //    }
-        //    return list;
-        //}      
 
-        //[Route("DownloadUploadedFiles")]
-        //[HttpPost]
-        //public List<LicenseModel> DownloadUploadedFiles(HttpRequestMessage request, LicenseModel lic)
-        //{
-        //    List<LicenseModel> list = new List<LicenseModel>();
-        //    try
-        //    {
-        //        SqlConnection con = new SqlConnection(CommonClass.getconnection());
-        //        con.Open();
-        //        DataTable dt = new DataTable();
-        //        SqlCommand cmd = new SqlCommand("Select * from LicensePath where LicenseName='" + lic.LicenceName.Trim() + "'", con);
-        //        SqlDataAdapter da = new SqlDataAdapter(cmd);
-        //        DataSet ds = new DataSet();
-        //        da.Fill(ds, "LicensePath");
-        //        dt = ds.Tables[0];
-        //        for (int i = 0; i < dt.Rows.Count; i++)
-        //        {
-        //            LicenseModel GetAll = new LicenseModel();
-        //            GetAll.LicenceId = dt.Rows[i]["LicenseID"].ToString();
-        //            GetAll.Department = dt.Rows[i]["Department"].ToString();
-        //            GetAll.LicenceName = dt.Rows[i]["LicenseName"].ToString();
-        //            GetAll.LicencePath = dt.Rows[i]["Path"].ToString();
-        //            //GetAll.LicenceNo = dt.Rows[i]["LicenseNo"].ToString();
-        //            list.Add(GetAll);
-        //        }
-        //        con.Close();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // logerrors("Exception", "Method => SubejctDAL - LoadTechnologyDetails", ex.Message);
-        //    }
-        //    return list;
-        //}
+        [HttpGet]
+        [ActionName("Kranium_EMRAPILog")]
+        public List<res_EMRAPILog> Kranium_EMRAPILog(string Fdate, string tdate, string Status)
+        {
+            List<res_EMRAPILog> response = new List<res_EMRAPILog>();
+            response = _mediBusiness.Kranium_EMRAPILog(Fdate, tdate, Status);
+            return response;
+        }
 
-        //[Route("DeleteFilefromDisk")]
-        //[HttpPost]
-        //public LicenseModel DeleteFilefromDisk(HttpRequestMessage request, LicenseModel lic)
-        //{
-        //    List<LicenseModel> list = new List<LicenseModel>();
-        //    try
-        //    {
-        //        var root = HttpContext.Current.Server.MapPath("~/LicenseUpload/") + lic.Department + "\\" + lic.LicenceName + "\\" + lic.LicencePath;
-        //        if (File.Exists(root))
-        //        {
-        //            File.Delete(root);
-        //            SqlConnection con = new SqlConnection(CommonClass.getconnection());
-        //            SqlCommand cmd = new SqlCommand("Delete from LicensePath where Path='" + lic.LicencePath + "'", con);
-        //            cmd.CommandType = CommandType.Text;
-        //            con.Open();
-        //            int iResult = cmd.ExecuteNonQuery();
-        //            con.Close();
-        //            if (iResult == 1)
-        //            {
-        //                lic.ReturnMessage = "The requested file is deleted";
-        //                lic.ReturnStatus = 1;
-        //            }
-        //        }
+        [HttpPost]
+        [ActionName("save_opd_Process_Dtl")]
+        public responseDtl save_opd_Process_Dtl(requestDtl requestDtl)
+        {
+            responseDtl response = new responseDtl();
+            response = _mediBusiness.save_opd_Process_Dtl(requestDtl);
+            return response;
+        }
 
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // logerrors("Exception", "Method => SubejctDAL - LoadTechnologyDetails", ex.Message);
-        //    }
-        //    return lic;
-        //}
+        [HttpGet]
+        [ActionName("Get_opd_Process")]
+        public List<res_opd_Process> Get_opd_Process()
+        {
+            List<res_opd_Process> response = new List<res_opd_Process>();
+            response = _mediBusiness.Get_opd_Process();
+            return response;
+        }
 
     }
 

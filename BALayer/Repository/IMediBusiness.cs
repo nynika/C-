@@ -1,4 +1,4 @@
-﻿//using BALayer.BusinessModels;
+//using BALayer.BusinessModels;
 using EnitityLayer.BusinessModels;
 using System;
 using System.Collections.Generic;
@@ -10,6 +10,10 @@ namespace BALayer.Repository
     public interface IMediBusiness
     {
         resLogin GetLogin(reqLogin request);//arun 24.08.2021
+
+        resUserLogin getUserLogin(reqUserLogin req);//suji 30.03.2024
+        resSavelogin SaveUser_login(reqSaveLogin request);//suji 30.03.2024
+        respatLogin patLogin(reqpatLogin request);//suji 30.03.2024
         resHouseKeepingList Get_HouseKeepingList_Save(ReqHouseKeepingList request); // arun
         resHouseKeepingList Get_RestRoomCheckList_Save(ReqRestRoomList request); // arun
         resHouseKeepingList Get_Patient_Portal(Patient_Portal request); // prabha
@@ -18,6 +22,7 @@ namespace BALayer.Repository
         clsWebMinar SaveAppointmentSlot(ClsSaveAppointmentSlot Request);
         
         updaterefid Update_RefId(reqclass RefID);// prabha
+        CovidRegistrationDTO uhidGenerate(long UHID);
         //resHouseKeepingList OT_LIST_SAVE(OtClass req);// prabha
         //List<OtClass> Get_OTLits();// prabha
         //List<LicenseModel> Get_License_dtl();// prabha
@@ -30,10 +35,13 @@ namespace BALayer.Repository
         //clsWebMinar DoctoryDiectory_Img(DocDirImg_req request);
         clsWebMinar Doc_Dir_IMG_View(docDir_imgView request);
         clsWebMinar Doc_Dir_IMG_import(docDir_img_imp request);
+        List<signimgreq> signimage();
+        resSavelogin save_signimg(signimgreq request);   
         clsWebMinar Doc_Dir_IMG_export(docDir_img_exp request);
-        // clsWebMinar Insert_DocDir_New(DoctorDirectory_new request);
+       //  clsWebMinar Insert_DocDir_New(DoctorDirectory_new request);
         //clsWebMinar Update_DocDir_Dtl(DoctorDirectory request);
         //clsWebMinar Delete_DocDir_Dtl(int SNo);
+        //clsdelPat DeleteFilefromDisk (int UHID, string DocumentPath);
         //clsWebMinar Get_PaymentGetWay(PaymentGateWay req);
         //List<DocDirImg_List> Get_DocDir_Img_List();
         //List<docDir_imgView_List> Get_DocDir_Img_View_List();
@@ -44,7 +52,7 @@ namespace BALayer.Repository
         clsFinancialResult FinancialCounsellingSave(FinancialCounselling_req req); 
         EXS_opd_master_Res Insert_ExsistsOPDMaster_Porc(OPD_ExsitsMasterProc_req req);
         InsertCriticalCare_InfectiousDis_Res InsertCriticalCare_InfectiousDis(InsertCriticalCare_req req);
-        List<clsAppAvailableSlotTimeDtl> AppAvailableSlotTimeDtl(DateTime APPDate, String ConsId, String Slottype);// Priya
+        List<clsAppAvailableSlotTimeDtl> AppAvailableSlotTimeDtl(DateTime APPDate, string ConsId, string Slottype);// Priya
         List<clsGetCombinedData> GetCombinedData(string DtlType);
         //List<clsCUG> GetCombinedData_v1(string DtlType);
         List<clsDropDown> Ref_Source_list();
@@ -67,6 +75,7 @@ namespace BALayer.Repository
 
         List<reqRef_DoctorData> Ref_DoctorData_list();//prabha 04-Jan-2022
         List<clsDropDown> GetOccupationDataDetails();
+        List<clsbedRes> Web_Bed_Report();
         List<clsDropDown> GetStateDetails();
         List<clsDropDown> GetMaritalStatusDetails();
         List<clsDropDown> GetCityDtlStatewise(int StateCode);
@@ -89,7 +98,12 @@ namespace BALayer.Repository
         List<DepositePatientDtl> Get_PatDepositeDtl(int PatientID);
         List<reswebPatientDtl> Web_PatientDtl_list(string Type, string search);
         resHouseKeepingList WebSave_QMS_Details(Save_QMSDetails request);
+        resHouseKeepingList SavePatientDetails(reqimg request);
+        resHouseKeepingList import(Patient_Portal_PathModel request);
+        List<resimgList> GetImageDetails();     
+        resHouseKeepingList WebSave_QMS_Details_test(Save_QMSDetails request); 
         List<QMSDetails> Get_QMS_Details(string FromDate, string ToDate,string Type);
+        List<QMSDetails_test> Get_QMS_Details_test(string FromDate, string ToDate, string Type);
         List<resAppointmentList> Get_appointmentList_v1(string FromDate, string ToDate);
         List<BedRateAndNursingRate> BedRateAndNursingRate_dtl(int Bedcategoryid);
         List<BedDetails_Load> web_sp_BedDetails_Load(int CatId);
@@ -102,9 +116,16 @@ namespace BALayer.Repository
         List<DepositeDtl_ReprintList> Get_Web_Deposite_Reprint(string FromDate, string ToDate,int Uhid);
         List<DepositeReprint_OutputDtl> Get_DepositeReprintOutput(string ReceiptNo);
         resHouseKeepingList Get_WEB_SP_QMSStatus_Dtl(string PatientName, string MobileNo, int PatType);
+        resHouseKeepingList RadiologyAppointmentStatus(string DoctorName, int UHID, int APPID, int PatType);
+        resHouseKeepingList RadiologyAppointmentStatus_v1(string DoctorName, int UHID, int APPID, string PatType);
         resDaywiseQMSList Get_DaywiseQMS_Data_V1();
+        List<resQMSListTV> Get_QMS_TVData();
         resHouseKeepingList UpdateQMSStatus_Dtl(Save_QMSDetails req);
+        resHouseKeepingList UpdateQMSStatus_Dtl_test(Save_QMSDetails req);
         List<DayWise_QMSDetails> Get_WEB_DayWiseQMS_Dtl();
+        List<RadiologyAppointment> Get_RadiologyAppointment();
+        List<RadiologyAppointment> Get_RadiologyAppointment_Modality();
+        List<DayWise_QMSDetails_test> Get_WEB_DayWiseQMS_Dtl_test();
         List<DepPatAmt_Details> Get_WEB_DepPatAmt_Details(int UHID);
         List<clsDropDown> Get_web_DepositType_Dtl();
         List<clsRadLandingScreen> Get_web_RadLandingScreen_Dtl(string dtFrom, string dtTo, int blnOrderwise);
@@ -114,25 +135,46 @@ namespace BALayer.Repository
         List<clsweb_RadPatientSearch> web_RadPatientSearch(string FromDate, string ToDate, string MRN, string PatientName, string ApptTime, string DoctName, string Company, string MobileNo, string DeptName, int radmenu);    
         List<clsweb_NMPatientSearch> web_NMPatientSearch(string FromDate, string ToDate, string MRN, string PatientName, string ApptTime, string DoctName, string Company, string MobileNo, string DeptName, int radmenu);
         List<clsweb_MediScanPatientSearch> web_MediScanPatientSearch(string FromDate, string ToDate, string MRN, string PatientName, string ApptTime, string DoctName, string Company, string MobileNo, string DeptName, int radmenu);    
-        List<resOPList> Get_opList(string Type, String Search);//Jeyaganesh 29.07.2021
+        List<resOPList> Get_opList(string Type, string Search);//Jeyaganesh 29.07.2021
         List<clsDropDown> GetvisitType(string type);//Jeyaganesh 31.07.2021
         clsPatientRegistrationPdf GetPatientRegOutPutPdf(int RegId);
-        List<reqInvoice_Reprint_List> web_Invoice_Reprint_List_procedure(String FromDate, String ToDate, string type, string Search);
+        List<reqInvoice_Reprint_List> web_Invoice_Reprint_List_procedure(string FromDate, string ToDate, string type, string Search);
         InvoiceHead1 OpReprint_V1(int BillNo);//PRANHA 04
         List<clswebRef_patient> get_WebRef_pat(int appPatID);
+
+        List<cls_Patient_venue> Package_Patient_venue();
+        List<cls_Patient_master> Package_master();
+        List<cls_Test_master> Test_master();
+
         List<Doctor_Directory> Get_Doctor_Directory_Js();  //sujithra 08/01/2023
         
         InsertDoctor_Directory_Js_Res InsertDoctor_Directory_Js(InsertDoctor_Directory_Js_req req); //sujithra 08/01/2023
         UPDATEDoctor_Directory_Js_Res UPDATEDoctor_Directory_Js(UPDATEDoctor_Directory_Js_req req); //sujithra 08/01/2023
         List<TVbackgraound> Get_TVbackgraound();  //sujithra 08/01/2023
         UpdateTVbackgraound_Res UpdateTVbackgraound(UpdateTVbackgraound_req req); //sujithra 08/01/2023
-        Response_DTO_v1 updateOnlinePayment(payment_request payment_Request);
+        Response_pay updateOnlinePayment(pay_request pay_Request);
+
         //Response_v1 AuthenticateMobNo_Upload_V1(Auth_request Auth_request);
         Response_DTO_v1 updatePOSPayment(payment_request payment_Request);
         string AuthenticateOTP(string RandomNumber, string MobileNo);
         OTP_Resp GetPatientResp_MobNo(string RandomNumber, string MobileNo);
         void InsertUpdateOTP_portal( string RandomNumber, string MobileNo);
         List<res_BirthDay_Info_New> Get_BirthDay_Info_New(string date);
+        List<res_opiprevenue> SP_OPIPREVENUE(string FromDate, string ToDate, string Pattype, int IVF_flg);
+        List<res_EMRAPILog> Kranium_EMRAPILog(string Fdate, string tdate, string Status);
+        List<res_opd_Process> Get_opd_Process(string Todate);
+        List<res_opd_Process> Get_opd_Process_v1(string Todate, int Type);
+        List<res_UpdateQC_Visit> UpdateQCEMRDashboard_Visit(string Todate, int VisitId);
+        responseDtl save_opd_Process_Dtl(requestDtl requestDtl);
+        responseDtl SaveOrUpdateQCVisittracking(req_Visittracking requestDtl);
+        resEMROTDetl SaveEMROTDet(req_EMROTDetl requestDtl);
+        responseDtl SaveOrUpdateQCOrderTracking(req_OrderTracking requestDtl);
+        responseDtl save_e_certificate(requeste_cert requeste_cert);
+        List<res_doctor_tv> Get_Doctor_TV(string TvTag);
+        List<SlotRes_DTO> GetAppointmentSlot_Web(SlotReq_DTO slot_DTO);//Jeyaganesh 29.09.2021
+        List<clsDoctor> GetDoctorNameDepWiseDocID(DepartmentwiseDoctorFilter dep);//Jeyaganesh 26.04.2021
+        appointment_Response createAppointment(AppointmentBooking appointmentBooking);//Jeyaganesh 09.06.2021
+        appointment_Response createAppointment_seq(AppointmentBooking_seq appointmentBooking_seq);//sujithra 25.06.2024
 
 
     }

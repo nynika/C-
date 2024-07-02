@@ -1,4 +1,4 @@
-﻿//using BALayer.BusinessModels;
+//using BALayer.BusinessModels;
 using BALayer.Repository;
 using DALayer;
 using System;
@@ -21,6 +21,7 @@ using Newtonsoft.Json.Linq;
 using System.Data.SqlClient;
 using System.Web.UI.WebControls;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 
 namespace BALayer
 {
@@ -54,6 +55,97 @@ namespace BALayer
                         response.userName = DBNull.Value != dr["UserName"] ? Convert.ToString(dr["UserName"]) : "";
                         response.userImage = DBNull.Value != dr["UserImage"] ? Encoding.ASCII.GetString((byte[])dr["UserImage"]) : "";
 
+                    }
+                }
+            }
+
+            return response;
+        }
+
+        public resUserLogin getUserLogin(reqUserLogin req)
+        {
+            resUserLogin response = new resUserLogin();
+            DataSet ds = dataLayer.getUserLogin(req);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+
+                        response.EmpId = DBNull.Value != dr["EmpId"] ? Convert.ToInt32(dr["EmpId"]) : 0;
+                        response.username = DBNull.Value != dr["username"] ? Convert.ToString(dr["username"]) : "";
+                        response.Password = DBNull.Value != dr["Password"] ? Convert.ToString(dr["Password"]) : "";
+
+                    }
+                }
+            }
+
+            return response;
+        }
+
+
+        //public resSavelogin SaveUser_login(reqSaveLogin request)
+
+        //{
+        //    resSavelogin response = new resSavelogin();
+
+        //    DataSet ds = dataLayer.SaveUser_login(request);
+
+        //    if (ds != null)
+        //    {
+        //        if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+        //        {
+        //            foreach (DataRow dr in ds.Tables[0].Rows)
+        //            {
+                        
+        //                response.Username = DBNull.Value != dr["Username"] ? Convert.ToString(dr["Username"]) : "";
+        //                response.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+        //                response.Date = DBNull.Value != dr["Date"] ? Convert.ToString(dr["Date"]) : "";
+        //            }
+        //        }
+        //    }
+
+        //    return response;
+        //}
+
+
+        public resSavelogin SaveUser_login(reqSaveLogin request)
+        {
+            resSavelogin response = new resSavelogin();
+
+            DataSet ds = dataLayer.SaveUser_login(request);
+
+            if (ds != null && ds.Tables.Count > 0 && ds.Tables[0] != null)
+            {
+                DataTable dt = ds.Tables[0];
+                if (dt.Rows.Count > 0)
+                {
+                    DataRow dr = dt.Rows[0];
+
+                    response.Sno = Convert.ToInt32(dr["Sno"]);
+                    response.MsgDesc = Convert.ToString(dr["MsgDesc"]);
+                }
+            }
+
+            return response;
+        }
+
+
+        public respatLogin patLogin(reqpatLogin request)
+        {
+            respatLogin response = new respatLogin();
+            DataSet ds = dataLayer.patLogin(request);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        response.UserId = DBNull.Value != dr["UserId"] ? Convert.ToString(dr["UserId"]) : "";
+                        response.Password = DBNull.Value != dr["Password"] ? Convert.ToString(dr["Password"]) : "";
+                        response.UserName = DBNull.Value != dr["UserName"] ? Convert.ToString(dr["UserName"]) : "";
+           
                     }
                 }
             }
@@ -189,6 +281,29 @@ namespace BALayer
 
             return result;
         }
+
+        public CovidRegistrationDTO uhidGenerate(long UHID)
+        {
+            CovidRegistrationDTO appointmentBooking_Resp = new CovidRegistrationDTO();
+            DataSet ds = dataLayer.uhidGenerateLayer(UHID);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        appointmentBooking_Resp.ResponseCode = Convert.ToString(dr["Sno"]);
+                        appointmentBooking_Resp.Response = Convert.ToString(dr["MsgDescp"]);
+                        appointmentBooking_Resp.RegistrationRefNo = Convert.ToString(dr["ReferenceNumber"]);
+                        appointmentBooking_Resp.MobileNo = Convert.ToString(dr["MobileNo"]);
+                        appointmentBooking_Resp.EmailId = Convert.ToString(dr["Emailid"]);
+                    }
+                }
+            }
+            return appointmentBooking_Resp;
+        }
+        //Jeyaganesh 23.07.2021
+
         //public resHouseKeepingList OT_LIST_SAVE(OtClass req)
         //{
         //    resHouseKeepingList result = new resHouseKeepingList();
@@ -284,6 +399,59 @@ namespace BALayer
             return result;
         }
 
+        public resSavelogin save_signimg(signimgreq req)
+        {
+            resSavelogin result = new resSavelogin();
+
+            DataSet ds = dataLayer.save_signimg(req);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        result.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        result.MsgDesc = DBNull.Value != dr["MsgDesc"] ? Convert.ToString(dr["MsgDesc"]) : "";
+
+                    }
+                }
+            }
+
+            return result;
+        }
+
+
+
+        public List<signimgreq> signimage()
+        {
+            List<signimgreq> res = new List<signimgreq>();
+            DataSet ds = dataLayer.signimage();
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+
+                        signimgreq result = new signimgreq();
+
+                        result.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+                        result.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        result.MobileNo = DBNull.Value != dr["MobileNo"] ? Convert.ToString(dr["MobileNo"]) : "";
+                        result.DOB = DBNull.Value != dr["DOB"] ? Convert.ToString(dr["DOB"]) : "";
+                        result.Age = DBNull.Value != dr["Age"] ? Convert.ToString(dr["Age"]) : "";
+                        result.img = DBNull.Value != dr["img"] ? Convert.ToString(dr["img"]) : "";
+
+
+                        res.Add(result);
+
+                    }
+                }
+            }
+            return res;
+        }
+
         public clsWebMinar Doc_Dir_IMG_export(docDir_img_exp req)
         {
             clsWebMinar result = new clsWebMinar();
@@ -369,6 +537,8 @@ namespace BALayer
 
         //    return result;
         //}
+
+
         //public clsWebMinar Get_PaymentGetWay(PaymentGateWay req)
         //{
         //    clsWebMinar result = new clsWebMinar();
@@ -1609,6 +1779,39 @@ namespace BALayer
 
             return iDTypeDTOs;
         }
+
+        public List<clsbedRes> Web_Bed_Report()
+        {
+            List<clsbedRes> iDTypeDTOs = new List<clsbedRes>();
+            DataSet ds = dataLayer.Web_Bed_Report();
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        clsbedRes po = new clsbedRes();
+
+                        po.Ward_ICU_Name = DBNull.Value != dr["Ward_ICU_Name"] ? Convert.ToString(dr["Ward_ICU_Name"]) : "";
+                        po.Ward_No = DBNull.Value != dr["Ward_No"] ? Convert.ToString(dr["Ward_No"]) : "";
+                        po.COVID_Non_COVID = DBNull.Value != dr["COVID_Non_COVID"] ? Convert.ToString(dr["COVID_Non_COVID"]) : "";
+                        po.Total_Beds = DBNull.Value != dr["Total_Beds"] ? Convert.ToInt32(dr["Total_Beds"]) : 0;
+                        po.Cradle = DBNull.Value != dr["Cradle"] ? Convert.ToString(dr["Cradle"]) : "";                       
+                        po.Occupied = DBNull.Value != dr["Occupied"] ? Convert.ToInt32(dr["Occupied"]) : 0;
+                        po.Under_Maintenance = DBNull.Value != dr["Under_Maintenance"] ? Convert.ToInt32(dr["Under_Maintenance"]) : 0;
+                        po.Blocked = DBNull.Value != dr["Blocked"] ? Convert.ToInt32(dr["Blocked"]) : 0;
+                        po.Available_Beds = DBNull.Value != dr["Available_Beds"] ? Convert.ToInt32(dr["Available_Beds"]) : 0;
+                        po.Marked_for_Disharge = DBNull.Value != dr["Marked_for_Disharge"] ? Convert.ToInt32(dr["Marked_for_Disharge"]) : 0;
+                        po.Marked_for_Transfer = DBNull.Value != dr["Marked_for_Transfer"] ? Convert.ToInt32(dr["Marked_for_Transfer"]) : 0;
+                        po.New_IP_Admissions_for_the_day = DBNull.Value != dr["New_IP_Admissions_for_the_day"] ? Convert.ToInt32(dr["New_IP_Admissions_for_the_day"]) :0;
+                  
+                        iDTypeDTOs.Add(po);
+                    }
+                }
+            }
+
+            return iDTypeDTOs;
+        }
         public List<clsDropDown> GetStateDetails()
         {
             List<clsDropDown> countries = new List<clsDropDown>();
@@ -2708,6 +2911,8 @@ namespace BALayer
 
             return result;
         }
+
+        
         public resHouseKeepingList WebSave_QMS_Details(Save_QMSDetails request)
         {
             resHouseKeepingList result = new resHouseKeepingList();
@@ -2722,6 +2927,55 @@ namespace BALayer
 
             return result;
         }
+
+        public resHouseKeepingList SavePatientDetails(reqimg request )
+        {
+            resHouseKeepingList result = new resHouseKeepingList();
+
+            DataSet ds = dataLayer.SavePatientDetails(request);
+
+            if (ds != null)
+            {
+                result.Sno = DBNull.Value != ds.Tables[0].Rows[0]["Sno"] ? Convert.ToInt32(ds.Tables[0].Rows[0]["Sno"]) : 0;
+                result.MsgDesc = DBNull.Value != ds.Tables[0].Rows[0]["MsgDesc"] ? Convert.ToString(ds.Tables[0].Rows[0]["MsgDesc"]) : "";
+            }
+
+            return result;
+        }
+
+
+        public resHouseKeepingList import(Patient_Portal_PathModel request)
+        {
+            resHouseKeepingList result = new resHouseKeepingList();
+
+            DataSet ds = dataLayer.import(request);
+
+            if (ds != null)
+            {
+                result.Sno = DBNull.Value != ds.Tables[0].Rows[0]["Sno"] ? Convert.ToInt32(ds.Tables[0].Rows[0]["Sno"]) : 0;
+                result.MsgDesc = DBNull.Value != ds.Tables[0].Rows[0]["MsgDesc"] ? Convert.ToString(ds.Tables[0].Rows[0]["MsgDesc"]) : "";
+            }
+
+            return result;
+        }
+
+
+      
+        public resHouseKeepingList WebSave_QMS_Details_test(Save_QMSDetails request)
+        {
+            resHouseKeepingList result = new resHouseKeepingList();
+
+            DataSet ds = dataLayer.WebSave_QMS_Details(request);
+
+            if (ds != null)
+            {
+                result.Sno = DBNull.Value != ds.Tables[0].Rows[0]["Sno"] ? Convert.ToInt32(ds.Tables[0].Rows[0]["Sno"]) : 0;
+                result.MsgDesc = DBNull.Value != ds.Tables[0].Rows[0]["MsgDesc"] ? Convert.ToString(ds.Tables[0].Rows[0]["MsgDesc"]) : "";
+            }
+
+            return result;
+        }
+
         public List<QMSDetails> Get_QMS_Details(string FromDate, string ToDate, string Type)
         {
             List<QMSDetails> res = new List<QMSDetails>();
@@ -2740,6 +2994,8 @@ namespace BALayer
                         Patient.TokenNo = DBNull.Value != dr["TokenNo"] ? Convert.ToInt32(dr["TokenNo"]) : 0;
                         Patient.TokenDate = DBNull.Value != dr["TokenDate"] ? Convert.ToString(dr["TokenDate"]) : "";
                         Patient.StausFlag = DBNull.Value != dr["StausFlag"] ? Convert.ToString(dr["StausFlag"]) : "";
+                        Patient.Processing_time = DBNull.Value != dr["Processing_time"] ? Convert.ToString(dr["Processing_time"]) : "";
+                        Patient.Completed_time = DBNull.Value != dr["Completed_time"] ? Convert.ToString(dr["Completed_time"]) : "";
 
 
                         res.Add(Patient);
@@ -2749,6 +3005,36 @@ namespace BALayer
 
             return res;
         }
+
+        public List<QMSDetails_test> Get_QMS_Details_test(string FromDate, string ToDate, string Type)
+        {
+            List<QMSDetails_test> res = new List<QMSDetails_test>();
+
+            DataSet ds = dataLayer.Get_QMS_Details_test(FromDate, ToDate, Type);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        QMSDetails_test Patient = new QMSDetails_test();
+
+                        Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        Patient.MobileNo = DBNull.Value != dr["MobileNo"] ? Convert.ToString(dr["MobileNo"]) : "";
+                        Patient.TokenNo = DBNull.Value != dr["TokenNo"] ? Convert.ToInt32(dr["TokenNo"]) : 0;                 
+                        Patient.TokenDate = DBNull.Value != dr["TokenDate"] ? Convert.ToString(dr["TokenDate"]) : "";
+                        Patient.StausFlag = DBNull.Value != dr["StausFlag"] ? Convert.ToString(dr["StausFlag"]) : "";
+                        Patient.Processing_time = DBNull.Value != dr["Processing_time"] ? Convert.ToString(dr["Processing_time"]) : "";
+                        Patient.Completed_time = DBNull.Value != dr["Completed_time"] ? Convert.ToString(dr["Completed_time"]) : "";
+
+                        res.Add(Patient);
+                    }
+                }
+            }
+
+            return res;
+        }
+
 
         public List<resAppointmentList> Get_appointmentList_v1(string FromDate, string ToDate)
         {
@@ -2947,10 +3233,6 @@ namespace BALayer
                         Patient.AppointmentId = DBNull.Value != dr["AppointmentId"] ? Convert.ToInt32(dr["AppointmentId"]) : 0;
                         Patient.AppPatienttId = DBNull.Value != dr["AppPatienttId"] ? Convert.ToInt32(dr["AppPatienttId"]) : 0;
 
-
-
-
-
                         res.Add(Patient);
 
                     }
@@ -3044,6 +3326,37 @@ namespace BALayer
             return result;
         }
 
+
+        public resHouseKeepingList RadiologyAppointmentStatus(string DoctorName, int UHID, int APPID, int PatType)
+        {
+            resHouseKeepingList result = new resHouseKeepingList();
+
+            DataSet ds = dataLayer.RadiologyAppointmentStatus(DoctorName, UHID, APPID, PatType);
+
+            if (ds != null)
+            {
+                result.Sno = DBNull.Value != ds.Tables[0].Rows[0]["Sno"] ? Convert.ToInt32(ds.Tables[0].Rows[0]["Sno"]) : 0;
+                result.MsgDesc = DBNull.Value != ds.Tables[0].Rows[0]["MsgDesc"] ? Convert.ToString(ds.Tables[0].Rows[0]["MsgDesc"]) : "";
+            }
+
+            return result;
+        }
+
+
+        public resHouseKeepingList RadiologyAppointmentStatus_v1(string DoctorName, int UHID, int APPID, string PatType)
+        {
+            resHouseKeepingList result = new resHouseKeepingList();
+
+            DataSet ds = dataLayer.RadiologyAppointmentStatus_v1(DoctorName, UHID, APPID, PatType);
+
+            if (ds != null)
+            {
+                result.Sno = DBNull.Value != ds.Tables[0].Rows[0]["Sno"] ? Convert.ToInt32(ds.Tables[0].Rows[0]["Sno"]) : 0;
+                result.MsgDesc = DBNull.Value != ds.Tables[0].Rows[0]["MsgDesc"] ? Convert.ToString(ds.Tables[0].Rows[0]["MsgDesc"]) : "";
+            }
+
+            return result;
+        }
         public resDaywiseQMSList Get_DaywiseQMS_Data_V1()
         {
             resDaywiseQMSList result = new resDaywiseQMSList();
@@ -3062,11 +3375,80 @@ namespace BALayer
             return result;
         }
 
+        public List<resQMSListTV> Get_QMS_TVData()
+        {
+            List<resQMSListTV> res = new List<resQMSListTV>();
+            DataSet ds = dataLayer.Get_QMS_TVData();
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+
+                        resQMSListTV result = new resQMSListTV();
+
+                        result.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        result.TokenNo = DBNull.Value != dr["TokenNo"] ? Convert.ToInt32(dr["TokenNo"]) : 0;
+                        result.Status = DBNull.Value != dr["Status"] ? Convert.ToString(dr["Status"]) : "";
+
+                        res.Add(result);
+
+                    }
+                }
+            }
+            return res;
+        }
+
+    
+        public List<resimgList> GetImageDetails( )
+        {
+            List<resimgList> res = new List<resimgList>();
+            DataSet ds = dataLayer.GetImageDetails();
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        resimgList result = new resimgList();
+
+                        result.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+                        result.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        result.MobileNo = DBNull.Value != dr["MobileNo"] ? Convert.ToString(dr["MobileNo"]) : "";
+                        result.DocumentPath = DBNull.Value != dr["DocumentPath"] ? Convert.ToString(dr["DocumentPath"]) : "";
+                        result.LastModifiedDate = DBNull.Value != dr["LastModifiedDate"] ? Convert.ToString(dr["LastModifiedDate"]) : "";
+                        result.DocumentName = DBNull.Value != dr["DocumentName"] ? Convert.ToString(dr["DocumentName"]) : "";
+                        result.TempPath_FileName = DBNull.Value != dr["TempPath_FileName"] ? Convert.ToString(dr["TempPath_FileName"]) : "";
+           
+                        res.Add(result);
+
+                    }
+                }
+            }
+            return res;
+        }
+
         public resHouseKeepingList UpdateQMSStatus_Dtl(Save_QMSDetails req)
         {
             resHouseKeepingList result = new resHouseKeepingList();
 
             DataSet ds = dataLayer.UpdateQMSStatus_Dtl(req);
+
+            if (ds != null)
+            {
+                result.Sno = DBNull.Value != ds.Tables[0].Rows[0]["Sno"] ? Convert.ToInt32(ds.Tables[0].Rows[0]["Sno"]) : 0;
+                result.MsgDesc = DBNull.Value != ds.Tables[0].Rows[0]["MsgDesc"] ? Convert.ToString(ds.Tables[0].Rows[0]["MsgDesc"]) : "";
+            }
+
+            return result;
+        }
+
+        public resHouseKeepingList UpdateQMSStatus_Dtl_test(Save_QMSDetails req)
+        {
+            resHouseKeepingList result = new resHouseKeepingList();
+
+            DataSet ds = dataLayer.UpdateQMSStatus_Dtl_test(req);
 
             if (ds != null)
             {
@@ -3239,7 +3621,8 @@ namespace BALayer
             }
             return acess;
         }
-        public List<reqInvoice_Reprint_List> web_Invoice_Reprint_List_procedure(String FromDate, String ToDate, string type, string search)
+
+        public List<reqInvoice_Reprint_List> web_Invoice_Reprint_List_procedure(string FromDate, string ToDate, string type, string search)
         {
             List<reqInvoice_Reprint_List> dropdown_DTOs = new List<reqInvoice_Reprint_List>();
             try
@@ -3295,8 +3678,104 @@ namespace BALayer
             }
             return dropdown_DTOs;
         }
+        public List<cls_Patient_venue> Package_Patient_venue()
+        {
+            List<cls_Patient_venue> dropdown_DTOs = new List<cls_Patient_venue>();
+            try
+            {
+                DataSet ds = dataLayer.Package_Patient_venue();
+                if (ds != null)
+                {
+                    if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                    {
+                        foreach (DataRow dr in ds.Tables[0].Rows)
+                        {
+                            cls_Patient_venue res = new cls_Patient_venue();
 
-        
+                            res.patientId = DBNull.Value != dr["patientId"] ? Convert.ToString(dr["patientId"]) : "";
+                            res.departmentId = DBNull.Value != dr["departmentId"] ? Convert.ToString(dr["departmentId"]) : "";
+                            res.VisitNumber = DBNull.Value != dr["VisitNumber"] ? Convert.ToString(dr["VisitNumber"]) : "";
+                            res.VisitDate = DBNull.Value != dr["VisitDate"] ? Convert.ToString(dr["VisitDate"]) : "";
+                            res.PackageCode = DBNull.Value != dr["PackageCode"] ? Convert.ToString(dr["PackageCode"]) : "";
+                            res.Packagename = DBNull.Value != dr["Packagename"] ? Convert.ToString(dr["Packagename"]) : "";
+
+                            dropdown_DTOs.Add(res);
+
+                        }
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dropdown_DTOs;
+        }
+
+
+
+        public List<cls_Patient_master> Package_master()
+        {
+            List<cls_Patient_master> dropdown_DTOs = new List<cls_Patient_master>();
+            try
+            {
+                DataSet ds = dataLayer.Package_master();
+                if (ds != null)
+                {
+                    if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                    {
+                        foreach (DataRow dr in ds.Tables[0].Rows)
+                        {
+                            cls_Patient_master res = new cls_Patient_master();
+
+                            res.packageid = DBNull.Value != dr["packageid"] ? Convert.ToString(dr["packageid"]) : "";
+                            res.packagename = DBNull.Value != dr["packagename"] ? Convert.ToString(dr["packagename"]) : "";                           
+      
+                            dropdown_DTOs.Add(res);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dropdown_DTOs;
+        }
+
+        public List<cls_Test_master> Test_master()
+        {
+            List<cls_Test_master> dropdown_DTOs = new List<cls_Test_master>();
+            try
+            {
+                DataSet ds = dataLayer.Test_master();
+                if (ds != null)
+                {
+                    if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                    {
+                        foreach (DataRow dr in ds.Tables[0].Rows)
+                        {
+                            cls_Test_master res = new cls_Test_master();
+
+                            res.testcode = DBNull.Value != dr["testcode"] ? Convert.ToString(dr["testcode"]) : "";
+                            res.testname = DBNull.Value != dr["testname"] ? Convert.ToString(dr["testname"]) : "";
+                            res.package_id = DBNull.Value != dr["package_id"] ? Convert.ToString(dr["package_id"]) : "";
+                           
+                            dropdown_DTOs.Add(res);
+
+                        }
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return dropdown_DTOs;
+        }
+
         public InvoiceHead1 OpReprint_V1(int BillNo)
         {
             List<InvoiceLine1> invoiceLines = new List<InvoiceLine1>();
@@ -3348,7 +3827,7 @@ namespace BALayer
             }
             return reqHead;
         }
-
+        
         public List<clswebRef_patient> get_WebRef_pat(int appPatID)
         {
             List<clswebRef_patient> WebList = new List<clswebRef_patient>();
@@ -3572,7 +4051,7 @@ namespace BALayer
                             web.patient_dob = DBNull.Value != dr["patient_dob"] ? Convert.ToString(dr["patient_dob"]) : "";
                             web.patient_mobilenumber = DBNull.Value != dr["patient_mobilenumber"] ? Convert.ToString(dr["patient_mobilenumber"]) : "";
                             web.Patient_lastmodified = DBNull.Value != dr["Patient_lastmodified"] ? Convert.ToString(dr["Patient_lastmodified"]) : "";
-                            web.Msg = DBNull.Value != dr["Msg"] ? Convert.ToString(dr["Msg"]) : "";
+                            web.Response = DBNull.Value != dr["Response"] ? Convert.ToString(dr["Response"]) : "";
                           
                             WebList.Add(web);
 
@@ -3674,7 +4153,7 @@ namespace BALayer
                         {
                             CriticalCare web = new CriticalCare();
                             
-                            web.sno = DBNull.Value != dr["sno"] ? Convert.ToInt32(dr["sno"]) : 0;
+                            //web.sno = DBNull.Value != dr["sno"] ? Convert.ToInt32(dr["sno"]) : 0;
                             web.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
                             web.Gender = DBNull.Value != dr["Gender"] ? Convert.ToString(dr["Gender"]) : "";
                             web.Email_ID = DBNull.Value != dr["Email_ID"] ? Convert.ToString(dr["Email_ID"]) : "";
@@ -3716,6 +4195,92 @@ namespace BALayer
                         Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
                         Patient.TokenNo = DBNull.Value != dr["TokenNo"] ? Convert.ToInt32(dr["TokenNo"]) : 0;
                         Patient.TokenType = DBNull.Value != dr["TokenType"] ? Convert.ToString(dr["TokenType"]) : "";
+                        Patient.Processing_time = DBNull.Value != dr["Processing_time"] ? Convert.ToString(dr["Processing_time"]) : "";
+                        Patient.Completed_time = DBNull.Value != dr["Completed_time"] ? Convert.ToString(dr["Completed_time"]) : "";
+
+                        res.Add(Patient);
+
+                    }
+                }
+            }
+            return res;
+        }
+
+        public List<RadiologyAppointment> Get_RadiologyAppointment()
+        {
+            List<RadiologyAppointment> res = new List<RadiologyAppointment>();
+            DataSet ds = dataLayer.Get_RadiologyAppointment();
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+
+                        RadiologyAppointment Patient = new RadiologyAppointment();
+                              
+                        Patient.DoctorName = DBNull.Value != dr["DoctorName"] ? Convert.ToString(dr["DoctorName"]) : "";
+                        Patient.APPID = DBNull.Value != dr["APPID"] ? Convert.ToString(dr["APPID"]) : "";
+                        Patient.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+                        Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        Patient.Tokenno = DBNull.Value != dr["Tokenno"] ? Convert.ToInt32(dr["Tokenno"]) : 0;
+                        Patient.Status = DBNull.Value != dr["Status"] ? Convert.ToString(dr["Status"]) : "";
+  
+                        res.Add(Patient);
+
+                    }
+                }
+            }
+            return res;
+        }
+
+
+        public List<RadiologyAppointment> Get_RadiologyAppointment_Modality()
+        {
+            List<RadiologyAppointment> res = new List<RadiologyAppointment>();
+            DataSet ds = dataLayer.Get_RadiologyAppointment_Modality();
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+
+                        RadiologyAppointment Patient = new RadiologyAppointment();
+
+                        Patient.DoctorName = DBNull.Value != dr["DoctorName"] ? Convert.ToString(dr["DoctorName"]) : "";
+                        Patient.APPID = DBNull.Value != dr["APPID"] ? Convert.ToString(dr["APPID"]) : "";
+                        Patient.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+                        Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        Patient.Tokenno = DBNull.Value != dr["Tokenno"] ? Convert.ToInt32(dr["Tokenno"]) : 0;
+                        Patient.Status = DBNull.Value != dr["Status"] ? Convert.ToString(dr["Status"]) : "";
+
+                        res.Add(Patient);
+
+                    }
+                }
+            }
+            return res;
+        }
+
+        public List<DayWise_QMSDetails_test> Get_WEB_DayWiseQMS_Dtl_test()
+        {
+            List<DayWise_QMSDetails_test> res = new List<DayWise_QMSDetails_test>();
+            DataSet ds = dataLayer.Get_WEB_DayWiseQMS_Dtl_test();
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+
+                        DayWise_QMSDetails_test Patient = new DayWise_QMSDetails_test();
+
+                        Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        Patient.TokenNo = DBNull.Value != dr["TokenNo"] ? Convert.ToInt32(dr["TokenNo"]) : 0;
+                        Patient.TokenType = DBNull.Value != dr["TokenType"] ? Convert.ToString(dr["TokenType"]) : "";
+                        Patient.Processing_time = DBNull.Value != dr["Processing_time"] ? Convert.ToString(dr["Processing_time"]) : "";
+                        Patient.Completed_time = DBNull.Value != dr["Completed_time"] ? Convert.ToString(dr["Completed_time"]) : "";
 
                         res.Add(Patient);
 
@@ -3851,9 +4416,9 @@ namespace BALayer
 
             return result;
         }
-        public Response_DTO_v1 updateOnlinePayment(payment_request request)
+        public Response_pay updateOnlinePayment(pay_request request)
         {
-            Response_DTO_v1 response = new Response_DTO_v1();
+            Response_pay response = new Response_pay();
 
             DataSet ds = dataLayer.updateOnlinePayment(request);
 
@@ -4013,6 +4578,568 @@ namespace BALayer
             return res;
 
         }
+
+        public List<res_opiprevenue> SP_OPIPREVENUE(string FromDate, string ToDate, string Pattype, int IVF_flg)
+        {
+            List<res_opiprevenue> res = new List<res_opiprevenue> ();
+            DataSet ds = dataLayer.SP_OPIPREVENUE( FromDate,  ToDate,  Pattype,  IVF_flg);
+            if (ds !=null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        res_opiprevenue req = new res_opiprevenue();
+
+                        req.OrderDoctor = DBNull.Value != dr["OrderDoctor"] ? Convert.ToString(dr["OrderDoctor"]) : "";
+                        req.OrderDepartment = DBNull.Value != dr["OrderDepartment"] ? Convert.ToString(dr["OrderDepartment"]) : "";
+                        req.OrderDate = DBNull.Value != dr["OrderDate"] ? Convert.ToDateTime(dr["OrderDate"]).ToString("dd/MMM/yyyy") : "";
+                        req.VisitType = DBNull.Value != dr["VisitType"] ? Convert.ToString(dr["VisitType"]) : "";
+                        req.GrossAmount = DBNull.Value != dr["GrossAmount"] ? Convert.ToString(dr["GrossAmount"]) : "";
+                        req.Discount = DBNull.Value != dr["Discount"] ? Convert.ToString(dr["Discount"]) : "";
+                        req.Net = DBNull.Value != dr["Net"] ? Convert.ToString(dr["Net"]) : "";
+
+                        res.Add(req);
+
+                    }
+                }
+            }
+
+            return res;
+
+        }
+
+        public responseDtl save_opd_Process_Dtl(requestDtl request)
+        {
+            responseDtl response = new responseDtl();
+
+            DataSet ds = dataLayer.save_opd_Process_Dtl(request);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        response.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        response.MsgDesc = DBNull.Value != dr["MsgDesc"] ? Convert.ToString(dr["MsgDesc"]) : "";
+                    }
+                }
+            }
+
+            return response;
+        }
+
+       
+
+        public responseDtl SaveOrUpdateQCVisittracking(req_Visittracking request)
+        {
+            responseDtl response = new responseDtl();
+
+            DataSet ds = dataLayer.SaveOrUpdateQCVisittracking(request);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        response.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        response.MsgDesc = DBNull.Value != dr["MsgDesc"] ? Convert.ToString(dr["MsgDesc"]) : "";
+                    }
+                }
+            }
+
+            return response;
+        }
+
+        ////public resEMROTDetl SaveEMROTDet(req_EMROTDetl request)
+        ////{
+        ////    resEMROTDetl response = new resEMROTDetl();
+
+        ////    DataSet ds = dataLayer.SaveEMROTDet(request);
+
+        ////    if (ds != null)
+        ////    {
+        ////        if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+        ////        {
+        ////            foreach (DataRow dr in ds.Tables[0].Rows)
+        ////            {
+             
+        ////                response.Mpat_Admissionid_id = DBNull.Value != dr["Mpat_Admissionid_id"] ? Convert.ToString(dr["Mpat_Admissionid_id"]) : "";
+        ////                response.Scph_LOCATIONID_ID = DBNull.Value != dr["Scph_LOCATIONID_ID"] ? Convert.ToString(dr["Scph_LOCATIONID_ID"]) : "";
+        ////                response.Scph_ScheduleDt_dt = DBNull.Value != dr["Scph_ScheduleDt_dt"] ? Convert.ToString(dr["Scph_ScheduleDt_dt"]) : "";
+        ////                response.Scph_ScheduleTime_tm = DBNull.Value != dr["Scph_ScheduleTime_tm"] ? Convert.ToString(dr["Scph_ScheduleTime_tm"]) : ""; 
+        ////                response.Scph_ScheduleEndTime_tm = DBNull.Value != dr["Scph_ScheduleEndTime_tm"] ? Convert.ToString(dr["Scph_ScheduleEndTime_tm"]) : "";
+        ////                response.Scph_IsActive_flg = DBNull.Value != dr["Scph_IsActive_flg"] ? Convert.ToString(dr["Scph_IsActive_flg"]) : ""; 
+        ////                response.Scph_CreatedBy_id = DBNull.Value != dr["Scph_CreatedBy_id"] ? Convert.ToString(dr["Scph_CreatedBy_id"]) : "";
+        ////                response.Scph_Created_dt = DBNull.Value != dr["Scph_Created_dt"] ? Convert.ToString(dr["Scph_Created_dt"]) : "";
+        ////                response.Scph_LastModifiedBy_id = DBNull.Value != dr["Scph_LastModifiedBy_id"] ? Convert.ToString(dr["Scph_LastModifiedBy_id"]) : "";
+        ////                response.Scph_LastModified_dt = DBNull.Value != dr["Scph_LastModified_dt"] ? Convert.ToString(dr["Scph_LastModified_dt"]) : "";
+        ////                response.OT_OTTypeCode_Cd = DBNull.Value != dr["OT_OTTypeCode_Cd"] ? Convert.ToString(dr["OT_OTTypeCode_Cd"]) : "";
+        ////                response.Scph_ScheduleEndDt_dt = DBNull.Value != dr["Scph_ScheduleEndDt_dt"] ? Convert.ToString(dr["Scph_ScheduleEndDt_dt"]) : "";
+                     
+        ////            }
+        ////        }
+        ////    }
+
+        ////    return response;
+        ////}
+
+
+        public resEMROTDetl SaveEMROTDet(req_EMROTDetl request)
+        {
+            resEMROTDetl response = new resEMROTDetl();
+
+            DataSet ds = dataLayer.SaveEMROTDet(request);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        response.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        response.MsgDesc = DBNull.Value != dr["MsgDesc"] ? Convert.ToString(dr["MsgDesc"]) : "";
+
+                    }
+                }
+            }
+
+            return response;
+        }
+
+
+        public responseDtl SaveOrUpdateQCOrderTracking(req_OrderTracking request)
+        {
+            responseDtl response = new responseDtl();
+
+            DataSet ds = dataLayer.SaveOrUpdateQCOrderTracking(request);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        response.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        response.MsgDesc = DBNull.Value != dr["MsgDesc"] ? Convert.ToString(dr["MsgDesc"]) : "";
+                    }
+                }
+            }
+
+            return response;
+        }
+
+        public responseDtl save_e_certificate(requeste_cert requeste_cert)
+        {
+            responseDtl response = new responseDtl();
+
+            DataSet ds = dataLayer.save_e_certificate(requeste_cert);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        response.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        response.MsgDesc = DBNull.Value != dr["MsgDesc"] ? Convert.ToString(dr["MsgDesc"]) : "";
+                    }
+                }
+            }
+
+            return response;
+        }
+       
+
+
+        public List<res_EMRAPILog> Kranium_EMRAPILog(string Fdate, string tdate, string Status)
+        {
+            List<res_EMRAPILog> res = new List<res_EMRAPILog>();
+
+            DataSet ds = dataLayer.Kranium_EMRAPILog(Fdate, tdate, Status);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        res_EMRAPILog Patient = new res_EMRAPILog();
+
+                  
+                        Patient.SNo = DBNull.Value != dr["SNo"] ? Convert.ToInt32(dr["SNo"]) :0;
+                        Patient.APIType = DBNull.Value != dr["APIType"] ? Convert.ToString(dr["APIType"]) : "";
+                        Patient.Request = DBNull.Value != dr["Request"] ? Convert.ToString(dr["Request"]) : "";
+                        Patient.Response = DBNull.Value != dr["Response"] ? Convert.ToString(dr["Response"]) : "";
+                        Patient.status = DBNull.Value != dr["status"] ? Convert.ToString(dr["status"]) : "";
+                        Patient.HostName = DBNull.Value != dr["HostName"] ? Convert.ToString(dr["HostName"]) : "";
+                        Patient.CreatedBy = DBNull.Value != dr["CreatedBy"] ? Convert.ToString(dr["CreatedBy"]) : "";
+                        Patient.CreatedDate = DBNull.Value != dr["CreatedDate"] ? Convert.ToString(dr["CreatedDate"]) : "";
+                        
+                        res.Add(Patient);
+                    }
+                }
+            }
+
+            return res;
+        }
+
+
+
+
+        public List<res_opd_Process> Get_opd_Process(string Todate)
+        {
+            List<res_opd_Process> res = new List<res_opd_Process>();
+
+            DataSet ds = dataLayer.Get_opd_Process(Todate);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        res_opd_Process Patient = new res_opd_Process();
+
+                        Patient.RegistrationId = DBNull.Value != dr["RegistrationId"] ? Convert.ToString(dr["RegistrationId"]) : "";
+                        Patient.PatientId = DBNull.Value != dr["PatientId"] ? Convert.ToString(dr["PatientId"]) : "";
+                        Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        Patient.VisitDate = DBNull.Value != dr["VisitDate"] ? Convert.ToString(dr["VisitDate"]) : "";
+                        Patient.DoctorName = DBNull.Value != dr["DoctorName"] ? Convert.ToString(dr["DoctorName"]) : "";
+                        Patient.Rad_Order = DBNull.Value != dr["Rad_Order"] ? Convert.ToString(dr["Rad_Order"]) : "";
+                        Patient.Rad_Followup_Billed = DBNull.Value != dr["Rad_Followup_Billed"] ? Convert.ToString(dr["Rad_Followup_Billed"]) : "";
+                        Patient.Study_Start = DBNull.Value != dr["Study_Start"] ? Convert.ToString(dr["Study_Start"]) : "";
+                        Patient.Study_Authorized = DBNull.Value != dr["Study_Authorized"] ? Convert.ToString(dr["Study_Authorized"]) : "";
+                        Patient.Lab_Order = DBNull.Value != dr["Lab_Order"] ? Convert.ToString(dr["Lab_Order"]) : "";
+                        Patient.Lab_Followup_Billed = DBNull.Value != dr["Lab_Followup_Billed"] ? Convert.ToString(dr["Lab_Followup_Billed"]) : "";
+                        Patient.Sample_Collected = DBNull.Value != dr["Sample_Collected"] ? Convert.ToString(dr["Sample_Collected"]) : "";
+                        Patient.Lab_Authorized = DBNull.Value != dr["Lab_Authorized"] ? Convert.ToString(dr["Lab_Authorized"]) : "";
+                        Patient.Medicines_Prescribed = DBNull.Value != dr["Medicines_Prescribed"] ? Convert.ToString(dr["Medicines_Prescribed"]) : "";
+                        Patient.Billing_status = DBNull.Value != dr["Billing_status"] ? Convert.ToString(dr["Billing_status"]) : "";
+
+                        res.Add(Patient);
+                    }
+                }
+            }
+
+            return res;
+        }
+
+
+
+        public List<res_opd_Process> Get_opd_Process_v1(string Todate, int Type)
+        {
+            List<res_opd_Process> res = new List<res_opd_Process>();
+
+            DataSet ds = dataLayer.Get_opd_Process_v1(Todate, Type);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        res_opd_Process Patient = new res_opd_Process();
+
+                    
+                        Patient.RegistrationId = DBNull.Value != dr["RegistrationId"] ? Convert.ToString(dr["RegistrationId"]) : "";
+                        Patient.PatientId = DBNull.Value != dr["PatientId"] ? Convert.ToString(dr["PatientId"]) : "";
+                        Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        Patient.VisitDate = DBNull.Value != dr["VisitDate"] ? Convert.ToString(dr["VisitDate"]) : "";
+                        Patient.DoctorName = DBNull.Value != dr["DoctorName"] ? Convert.ToString(dr["DoctorName"]) : "";
+
+                        if (Type == 1)
+                        {
+                            Patient.Rad_Order = DBNull.Value != dr["Rad_Order"] ? Convert.ToString(dr["Rad_Order"]) : "";
+                            Patient.Rad_Followup_Billed = DBNull.Value != dr["Rad_Followup_Billed"] ? Convert.ToString(dr["Rad_Followup_Billed"]) : "";
+                            Patient.Study_Start = DBNull.Value != dr["Study_Start"] ? Convert.ToString(dr["Study_Start"]) : "";
+                            Patient.Study_Authorized = DBNull.Value != dr["Study_Authorized"] ? Convert.ToString(dr["Study_Authorized"]) : "";
+
+                            Patient.Lab_Order = "";
+                            Patient.Lab_Followup_Billed =  "";
+                            Patient.Sample_Collected = "";
+                            Patient.Lab_Authorized =  "";
+                            Patient.Medicines_Prescribed = "";
+                            Patient.Billing_status =  "";
+
+
+                        }
+
+
+                        if (Type == 2)
+                        {
+
+                            Patient.Admission_advised = DBNull.Value != dr["Admission_advised"] ? Convert.ToString(dr["Admission_advised"]) : "";
+                            Patient.Admission_Status = DBNull.Value != dr["Admission_Status"] ? Convert.ToString(dr["Admission_Status"]) : "";
+
+                            Patient.Rad_Order =  "";
+                            Patient.Rad_Followup_Billed = "";
+                            Patient.Study_Start =  "";
+                            Patient.Study_Authorized =  "";
+                            Patient.Lab_Order =  "";
+                            Patient.Lab_Followup_Billed =  "";
+                            Patient.Sample_Collected =  "";
+                            Patient.Lab_Authorized =  "";
+                            Patient.Medicines_Prescribed =  "";
+                            Patient.Billing_status =  "";
+                        }
+
+                        if (Type == 3)
+                        {
+                            Patient.Rad_Order =  "";
+                            Patient.Rad_Followup_Billed =  "";
+                            Patient.Study_Start =  "";
+                            Patient.Study_Authorized =  "";
+                            Patient.Lab_Order = "";
+                            Patient.Lab_Followup_Billed =  "";
+                            Patient.Sample_Collected =  "";
+                            Patient.Lab_Authorized =  "";
+                            Patient.Medicines_Prescribed = DBNull.Value != dr["Medicines_Prescribed"] ? Convert.ToString(dr["Medicines_Prescribed"]) : "";
+                            Patient.Billing_status = DBNull.Value != dr["Billing_status"] ? Convert.ToString(dr["Billing_status"]) : "";
+                        }
+
+                        if(Type == 4)
+                        {
+                            Patient.Lab_Order = DBNull.Value != dr["Lab_Order"] ? Convert.ToString(dr["Lab_Order"]) : "";
+                            Patient.Lab_Followup_Billed = DBNull.Value != dr["Lab_Followup_Billed"] ? Convert.ToString(dr["Lab_Followup_Billed"]) : "";
+                            Patient.Sample_Collected = DBNull.Value != dr["Sample_Collected"] ? Convert.ToString(dr["Sample_Collected"]) : "";
+                            Patient.Lab_Authorized = DBNull.Value != dr["Lab_Authorized"] ? Convert.ToString(dr["Lab_Authorized"]) : "";
+
+                            
+                            Patient.Rad_Order = "";
+                            Patient.Rad_Followup_Billed =  "";
+                            Patient.Study_Start =  "";
+                            Patient.Study_Authorized =  "";
+                            Patient.Medicines_Prescribed =  "";
+                            Patient.Billing_status =  "";
+                        }
+                        if (Type == 5)
+                        {
+                            Patient.Rad_Order = DBNull.Value != dr["Rad_Order"] ? Convert.ToString(dr["Rad_Order"]) : "";
+                            Patient.Rad_Followup_Billed = DBNull.Value != dr["Rad_Followup_Billed"] ? Convert.ToString(dr["Rad_Followup_Billed"]) : "";
+                            Patient.Study_Start = DBNull.Value != dr["Study_Start"] ? Convert.ToString(dr["Study_Start"]) : "";
+                            Patient.Study_Authorized = DBNull.Value != dr["Study_Authorized"] ? Convert.ToString(dr["Study_Authorized"]) : "";
+                            Patient.Lab_Order = DBNull.Value != dr["Lab_Order"] ? Convert.ToString(dr["Lab_Order"]) : "";
+                            Patient.Lab_Followup_Billed = DBNull.Value != dr["Lab_Followup_Billed"] ? Convert.ToString(dr["Lab_Followup_Billed"]) : "";
+                            Patient.Sample_Collected = DBNull.Value != dr["Sample_Collected"] ? Convert.ToString(dr["Sample_Collected"]) : "";
+                            Patient.Lab_Authorized = DBNull.Value != dr["Lab_Authorized"] ? Convert.ToString(dr["Lab_Authorized"]) : "";
+                            Patient.Medicines_Prescribed = DBNull.Value != dr["Medicines_Prescribed"] ? Convert.ToString(dr["Medicines_Prescribed"]) : "";
+                            Patient.Billing_status = DBNull.Value != dr["Billing_status"] ? Convert.ToString(dr["Billing_status"]) : "";
+                        }
+                        res.Add(Patient);
+                    }
+                }
+            }
+
+            return res;
+        }
+
+        public List<res_UpdateQC_Visit> UpdateQCEMRDashboard_Visit(string Todate, int VisitId)
+        {
+            List<res_UpdateQC_Visit> res = new List<res_UpdateQC_Visit>();
+
+            DataSet ds = dataLayer.UpdateQCEMRDashboard_Visit(Todate, VisitId);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        res_UpdateQC_Visit Patient = new res_UpdateQC_Visit();
+
+                        Patient.PatientId = DBNull.Value != dr["PatientId"] ? Convert.ToString(dr["PatientId"]) : "";
+                        Patient.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+                        Patient.VisitId = DBNull.Value != dr["VisitId"] ? Convert.ToString(dr["VisitId"]) : "";
+                        Patient.VisitDate = DBNull.Value != dr["VisitDate"] ? Convert.ToString(dr["VisitDate"]) : "";
+                        Patient.Vitals_Completed_time = DBNull.Value != dr["Vitals_Completed_time"] ? Convert.ToString(dr["Vitals_Completed_time"]) : "";
+                        Patient.Doctor_Checkin = DBNull.Value != dr["Doctor_Checkin"] ? Convert.ToString(dr["Doctor_Checkin"]) : "";
+                        Patient.Procedure_Advised = DBNull.Value != dr["Procedure_Advised"] ? Convert.ToString(dr["Procedure_Advised"]) : "";
+                        Patient.Admission_Advised = DBNull.Value != dr["Admission_Advised"] ? Convert.ToString(dr["Admission_Advised"]) : "";
+                        Patient.Admission_Status = DBNull.Value != dr["Admission_Status"] ? Convert.ToString(dr["Admission_Status"]) : "";
+                        Patient.PresOrdercnt = DBNull.Value != dr["PresOrdercnt"] ? Convert.ToInt32(dr["PresOrdercnt"]) : 0;
+                        Patient.PresBillcnt = DBNull.Value != dr["PresBillcnt"] ? Convert.ToInt32(dr["PresBillcnt"]) : 0;
+
+                        res.Add(Patient);
+                    }
+                }
+            }
+
+            return res;
+        }
+
+        public List<res_doctor_tv> Get_Doctor_TV(string TvTag)
+        {
+            List<res_doctor_tv> res = new List<res_doctor_tv>();
+
+            DataSet ds = dataLayer.Get_Doctor_TV(TvTag);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        res_doctor_tv Patient = new res_doctor_tv();
+                        Patient.SlNo = DBNull.Value != dr["SlNo"] ? Convert.ToInt32(dr["SlNo"]) : 0;
+                        Patient.Department = DBNull.Value != dr["Department"] ? Convert.ToString(dr["Department"]) : "";
+                        Patient.SubDepartment = DBNull.Value != dr["SubDepartment"] ? Convert.ToString(dr["SubDepartment"]) : "";
+                        Patient.DoctorName = DBNull.Value != dr["DoctorName"] ? Convert.ToString(dr["DoctorName"]) : "";
+                        Patient.Designation = DBNull.Value != dr["Designation"] ? Convert.ToString(dr["Designation"]) : "";
+                        Patient.Qualification = DBNull.Value != dr["Qualification"] ? Convert.ToString(dr["Qualification"]) : "";
+                        Patient.SlideSequence = DBNull.Value != dr["SlideSequence"] ? Convert.ToString(dr["SlideSequence"]) : "";
+                        Patient.PictureName = DBNull.Value != dr["PictureName"] ? Convert.ToString(dr["PictureName"]) : "";
+                        Patient.TvTag = DBNull.Value != dr["TvTag"] ? Convert.ToString(dr["TvTag"]) : "";
+                        Patient.Slide = DBNull.Value != dr["Slide"] ? Convert.ToInt32(dr["Slide"]) : 0;
+                        Patient.Header = DBNull.Value != dr["Header"] ? Convert.ToString(dr["Header"]) : "";
+                        Patient.Doc_Img = DBNull.Value != dr["Doc_Img"] ? Convert.ToString(dr["Doc_Img"]) : "";
+                        res.Add(Patient);
+                    }
+                }
+            }
+
+            return res;
+        }
+
+
+        public List<SlotRes_DTO> GetAppointmentSlot_Web(SlotReq_DTO slot_DTO)
+        {
+            List<SlotRes_DTO> slotRes_DTOs = new List<SlotRes_DTO>();
+            DataSet ds = dataLayer.GetAppointmentSlot_Web(slot_DTO);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        SlotRes_DTO slotRes_DTO = new SlotRes_DTO();
+
+                        //slotRes_DTO.StartDateTime = DBNull.Value != dr["StartDateTime"] ? dr["StartDateTime"].ToString() : "";
+                        //slotRes_DTO.EndDateTime = DBNull.Value != dr["EndDateTime"] ? dr["EndDateTime"].ToString() : "";
+                        slotRes_DTO.StartDateTime = DBNull.Value != dr["StartDateTime"] ? dr["StartDateTime"].ToString() : "";
+                        slotRes_DTO.EndDateTime = DBNull.Value != dr["EndDateTime"] ? dr["EndDateTime"].ToString() : "";
+                        slotRes_DTO.SlotType = DBNull.Value != dr["SlotType"] ? Convert.ToInt32(dr["SlotType"]) : 0;
+                        slotRes_DTOs.Add(slotRes_DTO);
+                    }
+                }
+            }
+
+            return slotRes_DTOs;
+        }
+
+
+        public List<clsDoctor> GetDoctorNameDepWiseDocID(DepartmentwiseDoctorFilter dep)
+        {
+            List<clsDoctor> dropdown_DTOs = new List<clsDoctor>();
+            DataSet ds = dataLayer.GetDoctorNameDepWiseDocID(dep);
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        clsDoctor dropdown_DTO = new clsDoctor();
+
+                        dropdown_DTO.doctorid = DBNull.Value != dr["Mdoc_DoctorId_id"] ? Convert.ToInt32(dr["Mdoc_DoctorId_id"]) : 0;
+                        dropdown_DTO.doctorname = DBNull.Value != dr["Mdoc_DoctorName_nm"] ? Convert.ToString(dr["Mdoc_DoctorName_nm"]) : "";
+                        dropdown_DTO.chargerate = DBNull.Value != dr["Mdoc_ChargeRate_nm"] ? Convert.ToDecimal(dr["Mdoc_ChargeRate_nm"]) : 0;
+                        dropdown_DTO.profilelink = DBNull.Value != dr["Mdoc_ProfileLink_Desc"] ? Convert.ToString(dr["Mdoc_ProfileLink_Desc"]) : "#";
+                        dropdown_DTO.qualification = DBNull.Value != dr["Mdoc_Qualification_desc"] ? Convert.ToString(dr["Mdoc_Qualification_desc"]) : "";
+                        dropdown_DTO.photo_img = DBNull.Value != dr["Mdoc_Photo_img"] ? (byte[])(dr["Mdoc_Photo_img"]) : null;
+                        dropdown_DTO.designation = DBNull.Value != dr["Mdoc_ShortDescription_Desc"] ? Convert.ToString(dr["Mdoc_ShortDescription_Desc"]) : "";
+                        //DBNull.Value != dr["Mdoc_Photo_img"] ? (byte[]) dr["Mdoc_Photo_img"] : new byte();
+                        dropdown_DTOs.Add(dropdown_DTO);
+                    }
+                }
+            }
+
+            return dropdown_DTOs;
+        }
+
+        public appointment_Response createAppointment(AppointmentBooking appointmentBooking)
+        {
+            appointment_Response response = new appointment_Response();
+
+            DataSet ds = dataLayer.update_appointment(appointmentBooking);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+                        
+                        response.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        response.msgDescp = DBNull.Value != dr["MsgDescp"] ? Convert.ToString(dr["MsgDescp"]) : "";
+                        response.appointmentID = DBNull.Value != dr["appointmentID"] ? Convert.ToString(dr["appointmentID"]) : "";        
+                        response.Age = DBNull.Value != dr["age"] ? Convert.ToString(dr["age"]) : "";
+                        response.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+                        response.DoctorName = DBNull.Value != dr["DocName"] ? Convert.ToString(dr["DocName"]) : "";
+                        response.AppointmentDate = DBNull.Value != dr["datepart"] ? Convert.ToString(dr["datepart"]) : "";
+                        response.TimeSlot = DBNull.Value != dr["TimePart"] ? Convert.ToString(dr["TimePart"]) : "";
+                        response.EmailId = DBNull.Value != dr["emailId"] ? Convert.ToString(dr["emailId"]) : "";
+                        response.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+
+
+                    }
+                }
+            }
+
+            return response;
+        }
+
+
+        public appointment_Response createAppointment_seq(AppointmentBooking_seq appointmentBooking_seq) 
+        {
+            appointment_Response response = new appointment_Response();
+
+            DataSet ds = dataLayer.update_appointment_seq(appointmentBooking_seq);
+
+            if (ds != null)
+            {
+                if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+                {
+                    foreach (DataRow dr in ds.Tables[0].Rows)
+                    {
+
+                        response.Sno = DBNull.Value != dr["Sno"] ? Convert.ToInt32(dr["Sno"]) : 0;
+                        response.msgDescp = DBNull.Value != dr["MsgDescp"] ? Convert.ToString(dr["MsgDescp"]) : "";
+                        response.appointmentID = DBNull.Value != dr["appointmentID"] ? Convert.ToString(dr["appointmentID"]) : "";
+                        response.Age = DBNull.Value != dr["age"] ? Convert.ToString(dr["age"]) : "";
+                        response.UHID = DBNull.Value != dr["UHID"] ? Convert.ToString(dr["UHID"]) : "";
+                        response.DoctorName = DBNull.Value != dr["DocName"] ? Convert.ToString(dr["DocName"]) : "";
+                        response.AppointmentDate = DBNull.Value != dr["datepart"] ? Convert.ToString(dr["datepart"]) : "";
+                        response.TimeSlot = DBNull.Value != dr["TimePart"] ? Convert.ToString(dr["TimePart"]) : "";
+                        response.EmailId = DBNull.Value != dr["emailId"] ? Convert.ToString(dr["emailId"]) : "";
+                        response.PatientName = DBNull.Value != dr["PatientName"] ? Convert.ToString(dr["PatientName"]) : "";
+
+
+                    }
+                }
+            }
+
+            return response;
+        }
+
+        //public clsdelPat DeleteFilefromDisk(int UHID, string DocumentPath)
+        //{
+        //    clsdelPat response = new clsdelPat();
+
+        //    DataSet ds = dataLayer.DeleteFilefromDisk(UHID,DocumentPath);
+
+        //    if (ds != null)
+        //    {
+        //        if (ds.Tables.Count > 0 && ds.Tables[0] != null && ds.Tables[0].Rows != null)
+        //        {
+        //            foreach (DataRow dr in ds.Tables[0].Rows)
+        //            {
+        //                response.sno = DBNull.Value != dr["sno"] ? Convert.ToInt32(dr["sno"]) : 0;
+        //                response.MsgDesc = DBNull.Value != dr["MsgDesc"] ? Convert.ToString(dr["MsgDesc"]) : "";
+
+        //            }
+        //        }
+        //    }
+
+        //    return response;
+        //}
 
     }
 

@@ -1,0 +1,334 @@
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+E:\MVC\WORK\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+F:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+E:\Pradeep\WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+D:\Jeyaganesh\visual\work\web\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+G:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.AssemblyReference.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+E:\Visual\Final_Source\web source\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.AssemblyReference.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+E:\Visual\API_Details\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+D:\Jeyaganesh\visual\work\Praba\RIMC_WEBAPI\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+F:\peraman HIS\jei Source\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+F:\peraman HIS\Prabha\RIMC_WEBAPI\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+F:\Visual\Prabha\portal\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+E:\ArunKumar\kumar\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+C:\Users\mpc\Desktop\RIMC_WEBAPI03_01_2023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+F:\Visual\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csprojAssemblyReference.cache
+F:\Visual\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+F:\Visual\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+F:\Visual\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+F:\Visual\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll.config
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\Newtonsoft.Json.dll
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll.config
+F:\Visual\RIMC_WEBAPI\DALayer\bin\Release\Newtonsoft.Json.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Newtonsoft.Json.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll.config
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Newtonsoft.Json.xml
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.AssemblyReference.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+C:\sujithra API\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll.config
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\DALayer.pdb
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Owin.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Owin.Security.Cookies.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Owin.Security.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Owin.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Newtonsoft.Json.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.pdb
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\EnitityLayer.dll.config
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.pdb
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\AutoMapper.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Owin.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Owin.Security.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Owin.Security.Cookies.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.AccessControl.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\System.Security.Principal.Windows.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\bin\Release\Newtonsoft.Json.xml
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.AssemblyReference.cache
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CoreCompileInputs.cache
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.csproj.CopyComplete
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.dll
+C:\Sujithra API\16022024\RIMC_WEBAPI_30012024\RIMC_WEBAPI_10112023\RIMC_WEBAPI\DALayer\obj\Release\DALayer.pdb

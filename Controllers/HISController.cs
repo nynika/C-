@@ -99,7 +99,6 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
-
         [HttpPost]
         [ActionName("patLogin")]
         public respatLogin checkpatLogin([FromBody] reqpatLogin req)
@@ -131,6 +130,8 @@ namespace RIMC_WEBAPI.Controllers
         }
 
 
+  
+
         [HttpPost]
         [ActionName("Get_RestRoomCheckList_Save")]
         public resHouseKeepingList Get_RestRoomCheckList_Save(ReqRestRoomList req)
@@ -149,6 +150,8 @@ namespace RIMC_WEBAPI.Controllers
             response = _mediBusiness.Get_Patient_Portal(req);
             return response;
         }
+
+
         //14122023
         [HttpPost]
         [ActionName("Get_Patient_Portal_MHC")]
@@ -1400,6 +1403,35 @@ namespace RIMC_WEBAPI.Controllers
         }
 
         [HttpGet]
+        [ActionName("Package_Patient_venue")]
+        public List<cls_Patient_venue> Package_Patient_venue()
+        {
+            List<cls_Patient_venue> response = new List<cls_Patient_venue>();
+            response = _mediBusiness.Package_Patient_venue();
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("Package_master")]
+        public List<cls_Patient_master> Package_master()
+        {
+            List<cls_Patient_master> response = new List<cls_Patient_master>();
+            response = _mediBusiness.Package_master();
+            return response;
+        }
+
+
+        [HttpGet]
+        [ActionName("Test_master")]
+        public List<cls_Test_master> Test_master()
+        {
+            List<cls_Test_master> response = new List<cls_Test_master>();
+            response = _mediBusiness.Test_master();
+            return response;
+        }
+
+
+        [HttpGet]
         [ActionName("BedRateAndNursingRate_dtl")]
         public List<BedRateAndNursingRate> BedRateAndNursingRate_dtl(int Bedcategoryid)
         {
@@ -1524,10 +1556,10 @@ namespace RIMC_WEBAPI.Controllers
 
         [HttpPost]
         [ActionName("updateOnlinePayment")]
-        public Response_DTO_v1 updateOnlinePayment(payment_request payment_Request)
+        public Response_pay updateOnlinePayment(pay_request pay_Request)
         {
-            Response_DTO_v1 response = new Response_DTO_v1();
-            response = _mediBusiness.updateOnlinePayment(payment_Request);
+            Response_pay response = new Response_pay();
+            response = _mediBusiness.updateOnlinePayment(pay_Request);
             return response;
         }
 
@@ -1658,13 +1690,129 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
+
+        [HttpPost]
+        [ActionName("save_e_certificate")]
+        public responseDtl save_e_certificate(requeste_cert requeste_cert)
+        {
+            responseDtl response = new responseDtl();
+            response = _mediBusiness.save_e_certificate(requeste_cert);
+            return response;
+        }
+
         [HttpGet]
         [ActionName("Get_opd_Process")]
-        public List<res_opd_Process> Get_opd_Process()
+        public List<res_opd_Process> Get_opd_Process(string Todate)
         {
             List<res_opd_Process> response = new List<res_opd_Process>();
-            response = _mediBusiness.Get_opd_Process();
+            response = _mediBusiness.Get_opd_Process(Todate);
             return response;
+        }
+
+        [HttpGet]
+        [ActionName("Get_Doctor_TV")]
+        public List<res_doctor_tv> Get_Doctor_TV(string TvTag)
+        {
+            List<res_doctor_tv> response = new List<res_doctor_tv>();
+            response = _mediBusiness.Get_Doctor_TV(TvTag);
+                return response;
+        }
+
+        [HttpGet]
+        [ActionName("Get_opd_Process_v1")]
+        public List<res_opd_Process> Get_opd_Process_v1(string Todate, int Type)
+        {
+            List<res_opd_Process> response = new List<res_opd_Process>();
+            response = _mediBusiness.Get_opd_Process_v1(Todate, Type);
+            return response;
+        }
+
+        [HttpGet]
+        [ActionName("UpdateQCEMRDashboard_Visit")]
+        public List<res_UpdateQC_Visit> UpdateQCEMRDashboard_Visit(string Todate, int VisitId)
+        {
+            List<res_UpdateQC_Visit> response = new List<res_UpdateQC_Visit>();
+            response = _mediBusiness.UpdateQCEMRDashboard_Visit(Todate , VisitId);
+            return response;
+        }
+        [HttpPost]
+        [ActionName("SaveOrUpdateQCVisittracking")]
+        public responseDtl SaveOrUpdateQCVisittracking(req_Visittracking requestDtl)
+        {
+            responseDtl response = new responseDtl();
+            response = _mediBusiness.SaveOrUpdateQCVisittracking(requestDtl);
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("SaveEMROTDet")]
+        public resEMROTDetl SaveEMROTDet(req_EMROTDetl requestDtl)
+        {
+            resEMROTDetl response = new resEMROTDetl();
+            response = _mediBusiness.SaveEMROTDet(requestDtl);
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("SaveOrUpdateQCOrderTracking")]
+        public responseDtl SaveOrUpdateQCOrderTracking(req_OrderTracking requestDtl)
+        {
+            responseDtl response = new responseDtl();
+            response = _mediBusiness.SaveOrUpdateQCOrderTracking(requestDtl);
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("AvailableSlot_ampm")]
+        public List<SlotRes_DTO> GetAvailableAppointmentSlot_Web([FromBody] SlotReq_DTO slotReq_DTO)
+        {
+            List<SlotRes_DTO> slotRes_DTOs = new List<SlotRes_DTO>();
+            slotRes_DTOs = _mediBusiness.GetAppointmentSlot_Web(slotReq_DTO);
+
+            return slotRes_DTOs;
+        }
+
+        [HttpPost]
+        [ActionName("DepartmentWiseDoctorID")]
+        public List<clsDoctor> GetDepartmentWiseDoctorID([FromBody] DepartmentwiseDoctorFilter dep)
+        {
+            List<clsDoctor> response = new List<clsDoctor>();
+            response = _mediBusiness.GetDoctorNameDepWiseDocID(dep);
+
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("createAppointment")]
+        public appointment_Response createAppointment([FromBody] AppointmentBooking appointmentBooking)
+        {
+            try
+            {
+                appointment_Response response = new appointment_Response();
+                response = _mediBusiness.createAppointment(appointmentBooking);      
+                return response;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        [HttpPost]
+        [ActionName("createAppointment_seq")]
+        public appointment_Response createAppointment_seq([FromBody] AppointmentBooking_seq appointmentBooking_sqe)
+        {
+            try
+            {
+                appointment_Response response = new appointment_Response();
+                response = _mediBusiness.createAppointment_seq(appointmentBooking_sqe);
+                return response;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
     }

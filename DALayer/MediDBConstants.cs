@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Security.Cryptography;
@@ -52,7 +52,7 @@ namespace DALayer
         public const string OPD_MasterProc_api = "HIS_SP_MasterPat_Details"; //prabha 280972023
         public const string GetSalutationsData = "HIS_SP_GetSalutationsData ";//prabha 12122023
         public const string Web_Ref_source_Procedure = "HIS_SP_REF_SOURCE";//prabha 12122023
-        public const string GetDepartmentProcedure = "HIS_SP_Get_Department";//prabha 12122023
+        public const string GetDepartmentProcedure = "SP_Get_Department";//prabha 12122023
         public const string GetMobileCodeProcedure = "HIS_SP_MobileCode_Data";//prabha 12122023
         public const string GetCountriesData = "HIS_SP_GetCountriesData";//prabha 12122023
         public const string ServiceLoad_Procedure = "HIS_SP_ServiceLoad";//prabha 12122023
@@ -171,10 +171,19 @@ namespace DALayer
         public const string BookAppointment_ExistingPatient_new = "SP_Portal_AppointmentwithRegistration";//jeyaganesh 14.02.2022
         public const string BookAppointment_NewPatient = "SP_InsertIntoAppointmentForNewPatient_Dtl";
         public const string BookAppointment_NewPatient_new = "SP_Portal_NewAppointmentWithRegistration";//jeyaganesh 14.02.2022
-
-
         public const string BookAppointment_ExistingPatient_new_seq = "SP_Portal_AppointmentwithRegistration_sequence";//sujithra 14.02.2024
         public const string BookAppointment_NewPatient_new_seq = "SP_Portal_NewAppointmentWithRegistration_seq"; //sujithra 14.02.2024
+        public const string HIS_doctor_tv = "HIS_Doctor_TV";//sujithra 14/06/2024
+        public const string Sp_Save_Doctor_TV = "Save_Doctor_TV"; //sujithra 08.07.2024
+        public const string Sp_Delete_Doctor_TV = "Delete_Doctor_TV"; //sujithra 08.07.2024
+        public const string GetAppointmentAvailableSlotDtl = "SP_AppointmentAvailableSlot_Dtl";
+        public const string GetAppointmentAvailableSlotDaysDtl = "SP_AppointmentAvailableDate_Dtl";
+        public const string SP_Mepz = "SP_Mepz_tb";
+        public const string Sp_update_Mepz_tb = "update_Mepz_tb";
+        
+
+
+
 
 
         public static string sha256_hash(string value)

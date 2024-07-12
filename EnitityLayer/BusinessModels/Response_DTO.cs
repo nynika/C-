@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -8,6 +8,7 @@ using System.Net.Mail;
 using System.Net.NetworkInformation;
 using System.Runtime.Remoting.Contexts;
 using System.Security.Cryptography;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
@@ -178,7 +179,6 @@ namespace EnitityLayer.BusinessModels
         public string UHID { get; set; }
         public string DocumentPath { get; set; }
         public string DocumentName { get; set; }
-
         public string Status { get; set; }
 
     }
@@ -3192,7 +3192,7 @@ namespace EnitityLayer.BusinessModels
 
     public class res_doctor_tv
     {
-        public int SlNo { get; set; } 
+       // public int SlNo { get; set; } 
         public string Department { get; set; }
         public string SubDepartment { get; set; }
         public string DoctorName { get; set; }
@@ -3385,5 +3385,204 @@ namespace EnitityLayer.BusinessModels
         public string EmailId { get; set; }
     }
 
+
+    public class update_Doctor_TV_Res
+    {
+        public string TvTag { get; set; }
+        public string MsgDesc { get; set;}
+    }
+
+    public class update_Doctor_TV_req
+    {
+        public string Department { get; set; }
+        public string SubDepartment { get; set; }
+        public string DoctorName { get; set; }
+        public string Designation { get; set; }
+        public string Qualification { get; set; }
+        public int SlideSequence { get; set; }
+        public string PictureName { get; set; }
+        public string TvTag { get; set; }
+        public int Slide { get; set; }
+        public string Header { get; set; }
+        public string Doc_Img { get; set;}
+        public int Status { get; set;}
+
+    }
+     public class delete_Doctor_TV_req
+    {
+        public string Department { get; set;}
+        public string SubDepartment { get; set;}
+        public string DoctorName { get; set; }
+        public string Designation { get; set;}
+        public string Qualification { get; set;}
     
+    }
+
+    public class delete_Doctor_TV_Res
+    {
+        public string MsgDesc { get; set;}
+     
+    }
+
+
+    public class AppointmentSlotDTO
+    {
+        public int DoctorID { get; set; }
+        public string AppointmentDate { get; set; }
+        public int SlotType { get; set; }
+        public string AvailableSlotsStDttm { get; set; }
+        public string AvailableSlotsEndDttm { get; set; }
+    }
+
+
+    public class res_mepz
+    {
+      
+        public string Mepz_Code { get; set; }
+        public string Name { get; set; }
+        public string Company_Name { get; set; }
+        public string Age { get; set; }
+        public string Gender { get; set; }
+        public string DOB { get; set; }
+        public string Marital_Status { get; set; }
+        public string Mobile { get; set; }
+        public string Family_Diabetics { get; set; }
+        public string Family_Hypertension { get; set; }
+        public string Family_Heart_Disease { get; set; }
+        public string Family_Arthritis { get; set; }
+        public string Family_Tuberculosis { get; set; }
+        public string Family_Asthma { get; set; }
+        public string Family_Cancer { get; set; }
+        public string Family_Epilepsy { get; set; }
+        public string Family_Mentaor_Nervous_Disorder { get; set; }
+        public string Family_Any_Other_Disease { get; set; }
+        public string Personal_Good_health_and_capable_of_full_work { get; set; }
+        public string Personal_Disease_or_Injury { get; set; }
+        public string Personal_Rejected_on_Medical_Grounds { get; set; }
+        public string Others { get; set; }
+        public string Vaccination { get; set; }
+        public string Personal_Heart_Disease { get; set; }
+        public string Personal_Hypertension { get; set; }
+        public string Personal_Diabetes { get; set; }
+        public string Personal_KidneyDisease { get; set; }
+        public string Personal_Asthma { get; set; }
+        public string Personal_Tuberculosis { get; set; }
+        public string Personal_Dermatitis { get; set; }
+        public string Personal_Epilepsy { get; set; }
+        public string Personal_Allergy { get; set; }
+        public string Personal_Major_Operation { get; set; }
+        public string Personal_HepatitisB { get; set; }
+        public string Chronic_Lung_Disease { get; set; }
+        public string Any_Other_Illness { get; set; }
+        public string Chronic_Ear_Problem { get; set; }
+        public string Pysical_Handicap { get; set; }
+        public string Others_Details { get; set; }
+        public int Height { get; set; }
+        public int Weight { get; set; }
+        public int BMI { get; set; }
+        public string BP { get; set; }
+        public int Pulse { get; set; }
+        public int Spo2 { get; set; }
+        public int Temp { get; set; }
+        public int CBG { get; set; }
+        public string ECG { get; set; }
+        public string Dental_Examination { get; set; }
+        public string Eye_Examination { get; set; }
+        public string Diagnosis { get; set; }
+        public string Recommendations { get; set; }
+        public string Medication { get; set; }
+        public string Diagnosis1 { get; set; }
+        public string Final_department { get; set; }
+        public string PAP_SMEAR_No { get; set; }
+        public string PAP_SMEAR_details { get; set; }
+        public string Scaling { get; set; }
+        public string Filling { get; set; }
+        public string Prostho { get; set; }
+        public string Extraction { get; set; }
+        public string PERIO { get; set; }
+        public string Ortho { get; set; }
+        public string ECHO { get; set; }
+        public string Mammo { get; set; }
+        public string Recommended { get; set; }
+
+    }
+        public class update_Mepz_tb_res
+    {
+        public string Mepz_Code { get; set; }
+        public string MsgDesc { get; set; }
+   
+    }
+
+    public class update_Mepz_tb_req
+    {
+
+        public string Mepz_Code { get; set; }
+        public string Name { get; set; }
+        public string Company_Name { get; set; }
+        public int Age { get; set; }
+        public string Gender { get; set; }
+        public string DOB { get; set; }
+        public string Marital_Status { get; set; }
+        public string Mobile { get; set; }
+        public string Family_Diabetics { get; set; }
+        public string Family_Hypertension { get; set; }
+        public string Family_Heart_Disease { get; set; }
+        public string Family_Arthritis { get; set; }
+        public string Family_Tuberculosis { get; set; }
+        public string Family_Asthma { get; set; }
+        public string Family_Cancer { get; set; }
+        public string Family_Epilepsy { get; set; }
+        public string Family_Mentaor_Nervous_Disorder { get; set; }
+        public string Family_Any_Other_Disease { get; set; }
+        public bool Personal_Good_health_and_capable_of_full_work { get; set; }
+        public bool Personal_Disease_or_Injury { get; set; }
+        public bool Personal_Rejected_on_Medical_Grounds { get; set; }
+        public string Others { get; set; }
+        public bool Vaccination { get; set; }
+        public bool Personal_Heart_Disease { get; set; }
+        public bool Personal_Hypertension { get; set; }
+        public bool Personal_Diabetes { get; set; }
+        public bool Personal_KidneyDisease { get; set; }
+        public bool Personal_Asthma { get; set; }
+        public bool Personal_Tuberculosis { get; set; }
+        public bool Personal_Dermatitis { get; set; }
+        public bool Personal_Epilepsy { get; set; }
+        public bool Personal_Allergy { get; set; }
+        public bool Personal_Major_Operation { get; set; }
+        public bool Personal_HepatitisB { get; set; }
+        public bool Chronic_Lung_Disease { get; set; }
+        public bool Any_Other_Illness { get; set; }
+        public bool Chronic_Ear_Problem { get; set; }
+        public bool Pysical_Handicap { get; set; }
+        public string Others_Details { get; set; }
+        public int Height { get; set; }
+        public int Weight { get; set; }
+        public float BMI { get; set; }
+        public string BP { get; set; }
+        public int Pulse { get; set; }
+        public int Spo2 { get; set; }
+        public float Temp { get; set; }
+        public int CBG { get; set; }
+        public string ECG { get; set; }
+        public string Dental_Examination { get; set; }
+        public string Eye_Examination { get; set; }
+        public string Diagnosis { get; set; }
+        public string Recommendations { get; set; }
+        public string Medication { get; set; }
+        public string Diagnosis1 { get; set; }
+        public string Final_department { get; set; }
+        public int PAP_SMEAR_No { get; set; }
+        public string PAP_SMEAR_details { get; set; }
+        public string Scaling { get; set; }
+        public string Filling { get; set; }
+        public string Prostho { get; set; }
+        public string Extraction { get; set; }
+        public string PERIO { get; set; }
+        public string Ortho { get; set; }
+        public string ECHO { get; set; }
+        public string Mammo { get; set; }
+        public string Recommended { get; set; }
+
+    }
+
 }

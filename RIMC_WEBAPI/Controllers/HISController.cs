@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.IO;
@@ -52,6 +52,7 @@ using System.Net.NetworkInformation;
 using System.IO.Abstractions;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using Microsoft.VisualBasic;
+using Remotion.Linq.Parsing.ExpressionVisitors.Transformation.PredefinedTransformations;
 
 
 
@@ -128,9 +129,6 @@ namespace RIMC_WEBAPI.Controllers
             response = _mediBusiness.Get_HouseKeepingList_Save(req);
             return response;
         }
-
-
-  
 
         [HttpPost]
         [ActionName("Get_RestRoomCheckList_Save")]
@@ -1528,6 +1526,7 @@ namespace RIMC_WEBAPI.Controllers
             return response;
         }
 
+
         [HttpGet]
         [ActionName("Get_TVbackgraound")]
         public List<TVbackgraound> Get_TVbackgraound()
@@ -1813,6 +1812,75 @@ namespace RIMC_WEBAPI.Controllers
             {
                 throw ex;
             }
+        }
+
+
+        [HttpPost]
+        [ActionName("update_Doctor_TV")]
+        public update_Doctor_TV_Res update_Doctor_TV(update_Doctor_TV_req obj)
+        {
+            update_Doctor_TV_Res response = new update_Doctor_TV_Res();
+            response = _mediBusiness.update_Doctor_TV(obj);
+            return response;
+        }
+
+
+        [HttpGet]
+        [ActionName("Doctor_TV")]
+        public List<res_doctor_tv> Doctor_TV()
+        {
+            List<res_doctor_tv> response = new List<res_doctor_tv>();
+            response = _mediBusiness.Doctor_TV();
+            return response;
+        }
+
+
+        [HttpDelete]
+        [ActionName("Delete_Doctor_TV")]
+        public delete_Doctor_TV_Res Delete_Doctor_TV(delete_Doctor_TV_req obj)
+        {
+            delete_Doctor_TV_Res response = new delete_Doctor_TV_Res();
+            response = _mediBusiness.Delete_Doctor_TV(obj);
+            return response;
+        }
+
+        [HttpPost]
+        [ActionName("getslots")]
+        public List<AppointmentSlotDTO> GetDoctorAppointmentSlots([FromBody] AppointmentSlotDTO appointmentSlot)
+        {
+            List<AppointmentSlotDTO> appointmentSlots = new List<AppointmentSlotDTO>();
+            appointmentSlots = _mediBusiness.GetAppointmentSlotDetails(appointmentSlot);
+
+            return appointmentSlots;
+        }
+
+
+        [HttpPost]
+        [ActionName("getdays")]
+        public List<AppointmentSlotDTO> GetDoctorAppointmentDays([FromBody] AppointmentSlotDTO appointmentSlot)
+        {
+            List<AppointmentSlotDTO> appointmentSlots = new List<AppointmentSlotDTO>();
+            appointmentSlots = _mediBusiness.GetAppointmentSlotDaysDetails(appointmentSlot);
+            return appointmentSlots;
+        }
+
+        [HttpGet]
+        [ActionName("getmepz")]
+        public List<res_mepz> getmepz()
+        {
+            List<res_mepz> response = new List<res_mepz>();
+            response = _mediBusiness.getmepz();
+            return response;
+        }
+
+
+        [HttpPost]
+        [ActionName("update_Mepz_tb")]
+        public update_Mepz_tb_res update_Mepz_tb(update_Mepz_tb_req obj)
+        {
+            update_Mepz_tb_res response = new update_Mepz_tb_res();
+            response = _mediBusiness.update_Mepz_tb(obj);
+            return response;
         }
 
     }

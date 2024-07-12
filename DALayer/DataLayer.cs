@@ -1,4 +1,4 @@
-﻿using DALayer;
+using DALayer;
 using EnitityLayer.BusinessModels;
 using Microsoft.Practices.EnterpriseLibrary.Data.Sql;
 using System;
@@ -43,6 +43,8 @@ namespace DALayer
         protected SqlDatabase db_RMC_PACS_Interface;
         protected SqlDatabase db_RMC_EMR;
         protected SqlDatabase db_PatientPortal;
+        protected SqlDatabase db_Mepz_Camp;
+        
 
         //private string procedure = "";
 
@@ -67,6 +69,8 @@ namespace DALayer
             db_Radiology = new SqlDatabase(ConfigurationManager.AppSettings["CStrRIMC_Radiology"]);
             db_Rimc2019 = new SqlDatabase(ConfigurationManager.AppSettings["CStr_RIMC2019"]);
             db_PatientPortal = new SqlDatabase(ConfigurationManager.AppSettings["CStr_PatientPortal"]);
+            db_Mepz_Camp = new SqlDatabase(ConfigurationManager.AppSettings["CStr_Mepz_Camp"]);
+            
         }
 
         #endregion
@@ -7342,6 +7346,24 @@ namespace DALayer
             return ds;
         }
 
+        public DataSet Doctor_TV()
+        {
+            DataSet ds = new DataSet();
+            SqlParameter param;
+            try
+            {
+                using (DbCommand Cmd = db_PatientPortal.GetStoredProcCommand(MediDBConstants.HIS_doctor_tv))
+                {
+                    ds = db_PatientPortal.ExecuteDataSet(Cmd);
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return ds;
+        }
+
         public DataSet GetAppointmentSlot_Web(SlotReq_DTO slotReq_DTO)
         {
             SqlParameter param;
@@ -7708,6 +7730,584 @@ namespace DALayer
                     };
                 }
 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return ds;
+        }
+        public DataSet update_Doctor_TV(update_Doctor_TV_req request)
+        {
+            DataSet ds = new DataSet();
+            SqlParameter param;
+            try
+            {
+                using (DbCommand cmd = db_PatientPortal.GetStoredProcCommand(MediDBConstants.Sp_Save_Doctor_TV))
+                {
+
+                    param = new SqlParameter("@Department", request.Department);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@SubDepartment", request.SubDepartment);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@DoctorName", request.DoctorName);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Designation", request.Designation);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Qualification", request.Qualification);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@SlideSequence", request.SlideSequence);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@PictureName", request.PictureName);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@TvTag", request.TvTag);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Slide", request.Slide);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Header", request.Header);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Doc_Img", request.Doc_Img);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Status", request.Status);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    cmd.CommandTimeout = 30;
+                    ds = db_PatientPortal.ExecuteDataSet(cmd);
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return ds;
+        }
+        public DataSet Delete_Doctor_TV(delete_Doctor_TV_req request)
+        {
+            DataSet ds = new DataSet();
+            SqlParameter param;
+            try
+            {
+                using (DbCommand cmd = db_PatientPortal.GetStoredProcCommand(MediDBConstants.Sp_Delete_Doctor_TV))
+                {
+
+                    param = new SqlParameter("@Department", request.Department);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@SubDepartment", request.SubDepartment);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@DoctorName", request.DoctorName);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Designation", request.Designation);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Qualification", request.Qualification);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                   
+                    cmd.CommandTimeout = 30;
+                    ds = db_PatientPortal.ExecuteDataSet(cmd);
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return ds;
+        }
+
+        public DataSet GetAppointmentSlotDetails(AppointmentSlotDTO appointmentSlot)
+        {
+            DataSet ds = new DataSet();
+            SqlParameter param;
+            try
+            {
+                using (DbCommand Cmd = db_Institution.GetStoredProcCommand(MediDBConstants.GetAppointmentAvailableSlotDtl))
+                {
+                    //db_Institution.AddInParameter(Cmd, "recordCount", DbType.Int32);
+
+                    //db_Institution.AddInParameter(Convert.ToDateTime(ApptDate), "@ApptDate", DbType.DateTime);
+
+                    param = new SqlParameter("@APPDate", appointmentSlot.AppointmentDate);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Date;
+                    Cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@ConsId", appointmentSlot.DoctorID);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int16;
+                    Cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@SlotType", appointmentSlot.SlotType);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int16;
+                    Cmd.Parameters.Add(param);
+
+                    //Cmd.Parameters.Add("@APPDate", SqlDbType.VarChar).Value = txtFirstName.Text;
+                    //Cmd.Parameters.Add("@ConsId", SqlDbType.VarChar).Value = txtLastName.Text;
+                    Cmd.CommandTimeout = 30;
+                    ds = db_Institution.ExecuteDataSet(Cmd);
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return ds;
+        }
+
+
+        public DataSet GetAppointmentSlotDaysDetails(AppointmentSlotDTO appointmentSlot)
+        {
+            DataSet ds = new DataSet();
+            SqlParameter param;
+            try
+            {
+                using (DbCommand Cmd = db_Institution.GetStoredProcCommand(MediDBConstants.GetAppointmentAvailableSlotDaysDtl))
+                {
+                    //db_Institution.AddInParameter(Cmd, "recordCount", DbType.Int32);
+
+                    //db_Institution.AddInParameter(Convert.ToDateTime(ApptDate), "@ApptDate", DbType.DateTime);
+
+                    param = new SqlParameter("@Counter", appointmentSlot.AppointmentDate);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Date;
+                    Cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@ConsId", appointmentSlot.DoctorID);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int16;
+                    Cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@SlotType", appointmentSlot.SlotType);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int16;
+                    Cmd.Parameters.Add(param);
+
+                    //Cmd.Parameters.Add("@APPDate", SqlDbType.VarChar).Value = txtFirstName.Text;
+                    //Cmd.Parameters.Add("@ConsId", SqlDbType.VarChar).Value = txtLastName.Text;
+                    Cmd.CommandTimeout = 30;
+                    ds = db_Institution.ExecuteDataSet(Cmd);
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return ds;
+        }
+
+
+        public DataSet getmepz()
+        {
+            DataSet ds = new DataSet();
+            SqlParameter param;
+            try
+            {
+                using (DbCommand Cmd = db_Mepz_Camp.GetStoredProcCommand(MediDBConstants.SP_Mepz))
+                {
+                    ds = db_Mepz_Camp.ExecuteDataSet(Cmd);
+                };
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return ds;
+        }
+
+        public DataSet update_Mepz_tb(update_Mepz_tb_req request)
+        {
+            DataSet ds = new DataSet();
+            SqlParameter param;
+            try
+            {
+                using (DbCommand cmd = db_Mepz_Camp.GetStoredProcCommand(MediDBConstants.Sp_update_Mepz_tb))
+                {
+
+                    param = new SqlParameter("@Mepz_Code", request.Mepz_Code);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Name", request.Name);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Company_Name", request.Company_Name);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Age", request.Age);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Gender", request.Gender);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@DOB", request.DOB);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Marital_Status", request.Marital_Status);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Mobile", request.Mobile);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Diabetics", request.Family_Diabetics);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Hypertension", request.Family_Hypertension);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Heart_Disease", request.Family_Heart_Disease);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Arthritis", request.Family_Arthritis);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Tuberculosis", request.Family_Tuberculosis);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Asthma", request.Family_Asthma);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Cancer", request.Family_Cancer);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Epilepsy", request.Family_Epilepsy);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Mentaor_Nervous_Disorder", request.Family_Mentaor_Nervous_Disorder);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Family_Any_Other_Disease", request.Family_Any_Other_Disease);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Good_health_and_capable_of_full_work", request.Personal_Good_health_and_capable_of_full_work);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Disease_or_Injury", request.Personal_Disease_or_Injury);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Rejected_on_Medical_Grounds", request.Personal_Rejected_on_Medical_Grounds);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Others", request.Others);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Vaccination", request.Vaccination);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Heart_Disease", request.Personal_Heart_Disease);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Hypertension", request.Personal_Hypertension);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Diabetes", request.Personal_Diabetes);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_KidneyDisease", request.Personal_KidneyDisease);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Asthma", request.Personal_Asthma);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Tuberculosis", request.Personal_Tuberculosis);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Dermatitis", request.Personal_Dermatitis);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Epilepsy", request.Personal_Epilepsy);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Allergy", request.Personal_Allergy);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_Major_Operation", request.Personal_Major_Operation);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Personal_HepatitisB", request.Personal_HepatitisB);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Chronic_Lung_Disease", request.Chronic_Lung_Disease);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Any_Other_Illness", request.Any_Other_Illness);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Chronic_Ear_Problem", request.Chronic_Ear_Problem);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+
+                    param = new SqlParameter("@Pysical_Handicap", request.Pysical_Handicap);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Boolean;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Others_Details", request.Others_Details);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Height", request.Height);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Weight", request.Weight);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@BMI", request.BMI);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@BP", request.BP);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Pulse", request.Pulse);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Spo2", request.Spo2);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Temp", request.Temp);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@CBG", request.CBG);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Decimal;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@ECG", request.ECG);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Dental_Examination", request.Dental_Examination);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Eye_Examination", request.Eye_Examination);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Diagnosis", request.Diagnosis);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Recommendations", request.Recommendations);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Medication", request.Medication);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Diagnosis1", request.Diagnosis1);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Final_department", request.Final_department);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@PAP_SMEAR_No", request.PAP_SMEAR_No);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.Int32;
+                    cmd.Parameters.Add(param);
+
+
+                    param = new SqlParameter("@PAP_SMEAR_details", request.PAP_SMEAR_details);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Scaling", request.Scaling);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+
+                    param = new SqlParameter("@Filling", request.Filling);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+
+                    param = new SqlParameter("@Prostho", request.Prostho);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Extraction", request.Extraction);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@PERIO", request.PERIO);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Ortho", request.Ortho);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@ECHO", request.ECHO);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Mammo", request.Mammo);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    param = new SqlParameter("@Recommended", request.Recommended);
+                    param.Direction = ParameterDirection.Input;
+                    param.DbType = DbType.String;
+                    cmd.Parameters.Add(param);
+
+                    cmd.CommandTimeout = 30;
+                    ds = db_Mepz_Camp.ExecuteDataSet(cmd);
+                };
             }
             catch (Exception ex)
             {

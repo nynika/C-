@@ -171,10 +171,18 @@ namespace BALayer.Repository
         responseDtl SaveOrUpdateQCOrderTracking(req_OrderTracking requestDtl);
         responseDtl save_e_certificate(requeste_cert requeste_cert);
         List<res_doctor_tv> Get_Doctor_TV(string TvTag);
+        List<res_doctor_tv> Doctor_TV();
         List<SlotRes_DTO> GetAppointmentSlot_Web(SlotReq_DTO slot_DTO);//Jeyaganesh 29.09.2021
         List<clsDoctor> GetDoctorNameDepWiseDocID(DepartmentwiseDoctorFilter dep);//Jeyaganesh 26.04.2021
         appointment_Response createAppointment(AppointmentBooking appointmentBooking);//Jeyaganesh 09.06.2021
         appointment_Response createAppointment_seq(AppointmentBooking_seq appointmentBooking_seq);//sujithra 25.06.2024
+        update_Doctor_TV_Res update_Doctor_TV(update_Doctor_TV_req req); //sujithra 08/07/2024    
+        delete_Doctor_TV_Res Delete_Doctor_TV(delete_Doctor_TV_req req); //sujithra 08/07/2024    
+        List<AppointmentSlotDTO> GetAppointmentSlotDetails(AppointmentSlotDTO appointmentSlot);
+        List<AppointmentSlotDTO> GetAppointmentSlotDaysDetails(AppointmentSlotDTO appointmentSlot);
+        List<res_mepz> getmepz();
+
+        update_Mepz_tb_res update_Mepz_tb(update_Mepz_tb_req req); //sujithra 08/07/2024  
 
 
     }
